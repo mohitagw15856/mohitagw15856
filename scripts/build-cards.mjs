@@ -113,7 +113,7 @@ const NOW = sec('Now'), NEXT = sec('Next'), LATER = sec('Later');
 const NEVER = ['a Discord', 'a token', 'a rebrand to "PM Skills AI"', 'a skill that says "it depends"'];
 write('cs-roadmap', (theme) => card(theme, { kicker: 'Roadmap · from ROADMAP.md, except the last column', title: 'Now / Next / Later / Never', height: 372, foot: 'never is load-bearing', body: (T) => {
   const cols = [['NOW', NOW.length ? NOW : ['the decision layer'], T.good], ['NEXT', NEXT.length ? NEXT : ['expert-reviewed badges'], T.accent], ['LATER', LATER.length ? LATER : ['the printed edition'], T.warn], ['NEVER', NEVER, T.bad]];
-  return cols.map(([h, items, c], i) => { const x = 24 + i * 180; let y = 92; const out = [t(x, y, h, { size: 11, fill: c, weight: 700 })]; y += 20; for (const it of items.slice(0, 4)) { for (const l of wrap(it, 24).slice(0, 4)) { out.push(t(x, y, l, { size: 12, fill: T.text })); y += 16; } y += 6; } return out.join('\n'); }).join('\n');
+  return cols.map(([h, items, c], i) => { const x = 24 + i * 180; let y = 92; const out = [t(x, y, h, { size: 11, fill: c, weight: 700 })]; y += 20; for (const it of items.slice(0, 4)) { { const ls = wrap(it, 24); const shown = ls.slice(0, 4); if (ls.length > 4) shown[3] = shown[3].replace(/[,;:]?$/, '') + '…'; for (const l of shown) { out.push(t(x, y, l, { size: 12, fill: T.text })); y += 16; } } y += 6; } return out.join('\n'); }).join('\n');
 } }));
 
 // ── 3. Timeline ─────────────────────────────────────────────────────────────

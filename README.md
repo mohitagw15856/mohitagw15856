@@ -79,9 +79,9 @@ Firmware for the Xteink X4/X3 e-readers (ESP32-C3), because a $40 e-ink device d
 
 ### 2 · The roadmap
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-dark.svg?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-light.svg?v=2">
-  <img alt="Roadmap: Now, Next and Later pulled from ROADMAP.md, and a Never column that is entirely hand-written" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-dark.svg?v=2" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-dark.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-light.svg?v=3">
+  <img alt="Roadmap: Now, Next and Later pulled from ROADMAP.md, and a Never column that is entirely hand-written" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-dark.svg?v=3" width="100%">
 </picture>
 
 ### 3 · The changelog

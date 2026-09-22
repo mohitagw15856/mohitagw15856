@@ -13,7 +13,7 @@
    "freeRuns": 126,
    "skills": 1166,
    "evalAvg": 4.41,
-   "trafficLive": false,
+   "trafficLive": true,
    "status": {
     "Playground": 1,
     "MCP worker": 1,
