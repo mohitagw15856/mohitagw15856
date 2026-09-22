@@ -7,8 +7,8 @@
 <p align="center">
   <a href="https://github.com/mohitagw15856/pm-claude-skills">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=900&color=D2A8FF&center=true&vCenter=true&width=760&lines=1166+agent+skills%2C+one+markdown+file+each.;Decode+the+lease+before+you+sign+it.;Ship+or+slip%3F+Here's+a+probability%2C+not+a+paragraph.;PM+stands+for+Professional.+Yes%2C+we+get+asked.">
-      <img alt="1166 agent skills, one markdown file each. Decode the lease before you sign it. Ship or slip? Here's a probability, not a paragraph. PM stands for Professional." src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=900&color=6E40C9&center=true&vCenter=true&width=760&lines=1166+agent+skills%2C+one+markdown+file+each.;Decode+the+lease+before+you+sign+it.;Ship+or+slip%3F+Here's+a+probability%2C+not+a+paragraph.;PM+stands+for+Professional.+Yes%2C+we+get+asked.">
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=900&color=D2A8FF&center=true&vCenter=true&width=760&lines=1166+agent+skills%2C+one+markdown+file+each.;Decode+the+lease+before+you+sign+it.;Ship+or+slip%3F+A+probability%2C+not+a+paragraph.;PM+stands+for+Professional.+Yes%2C+we+get+asked.">
+      <img alt="1166 agent skills, one markdown file each. Decode the lease before you sign it. Ship or slip? A probability, not a paragraph. PM stands for Professional." src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=900&color=6E40C9&center=true&vCenter=true&width=760&lines=1166+agent+skills%2C+one+markdown+file+each.;Decode+the+lease+before+you+sign+it.;Ship+or+slip%3F+A+probability%2C+not+a+paragraph.;PM+stands+for+Professional.+Yes%2C+we+get+asked.">
     </picture>
   </a>
 </p>
@@ -35,14 +35,12 @@ The rule for everything I ship: **it has to be measured, or it has to say it isn
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-pm-claude-skills-dark.svg">
 <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-pm-claude-skills-light.svg">
 <img alt="pm-claude-skills" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-pm-claude-skills-dark.svg" width="100%"></picture></a>
-<br><sub><b>The library.</b> 1166 skills, 132 bundles, a playground, an MCP server, and a typed decision layer that answers <i>which skill? is this safe? ship or slip?</i> with a probability.</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/mohitagw15856/notugly"><picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-notugly-dark.svg">
 <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-notugly-light.svg">
 <img alt="notugly" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-notugly-dark.svg" width="100%"></picture></a>
-<br><sub><b>Provably not ugly.</b> Generate a design system from a seed; every text pairing clears WCAG AA before you see it. A GitHub Action fails your PR on a contrast regression.</sub>
 </td>
 </tr>
 <tr>
@@ -51,14 +49,12 @@ The rule for everything I ship: **it has to be measured, or it has to say it isn
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-rulebook-dark.svg">
 <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-rulebook-light.svg">
 <img alt="rulebook" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-rulebook-dark.svg" width="100%"></picture></a>
-<br><sub><b>Settle the argument.</b> 37 board and card games, 203 rulings, and which house rules are actually real. With an MCP server, because of course.</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/mohitagw15856/runs-on-what"><picture>
 <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-runs-on-what-dark.svg">
 <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-runs-on-what-light.svg">
 <img alt="runs-on-what" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-runs-on-what-dark.svg" width="100%"></picture></a>
-<br><sub><b>Will this model run on my machine?</b> One command benchmarks your hardware and opens a PR. Comparable numbers, or none at all.</sub>
 </td>
 </tr>
 </table>

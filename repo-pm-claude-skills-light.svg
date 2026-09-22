@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="150" viewBox="0 0 480 150" role="img" aria-label="pm-claude-skills: The library. 1166 skills, 132 bundles, a playground, an MCP server, and a typed decision layer.">
-<rect x="0.5" y="0.5" width="479" height="149" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="168" viewBox="0 0 480 168" role="img" aria-label="pm-claude-skills: The library. 1166 skills, 132 bundles, a playground, an MCP server, and a typed decision layer that answers which skill? is it safe? ship or slip? with a probability.">
+<rect x="0.5" y="0.5" width="479" height="167" rx="10" fill="#ffffff" stroke="#d0d7de"/>
 <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <text x="22" y="34" font-size="17" font-weight="700" fill="#0969da">📦 pm-claude-skills</text>
-<text x="22" y="62" font-size="13" fill="#24292f">The library. 1166 skills, 132 bundles, a playground, an MCP</text><text x="22" y="81" font-size="13" fill="#24292f">server, and a typed decision layer.</text>
-<text x="22" y="130" font-size="12.5" fill="#57606a"><tspan fill="#8250df">●</tspan> HTML   ★ 1,386   ⑂ 246</text>
+<text x="22" y="62" font-size="13" fill="#24292f">The library. 1166 skills, 132 bundles, a playground, an MCP</text><text x="22" y="81" font-size="13" fill="#24292f">server, and a typed decision layer that answers which skill?</text><text x="22" y="100" font-size="13" fill="#24292f">is it safe? ship or slip? with a probability.</text>
+<text x="22" y="148" font-size="12.5" fill="#57606a"><tspan fill="#8250df">●</tspan> Markdown · JavaScript   ★ 1,386   ⑂ 246</text>
 </g></svg>

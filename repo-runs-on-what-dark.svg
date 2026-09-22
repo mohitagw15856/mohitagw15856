@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="150" viewBox="0 0 480 150" role="img" aria-label="runs-on-what: Will this model run on my machine? One command benchmarks your hardware and opens a PR.">
-<rect x="0.5" y="0.5" width="479" height="149" rx="10" fill="#0d1117" stroke="#30363d"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="168" viewBox="0 0 480 168" role="img" aria-label="runs-on-what: Will this model run on my machine, and how fast? One command benchmarks your hardware and opens a PR. Comparable numbers, or none at all.">
+<rect x="0.5" y="0.5" width="479" height="167" rx="10" fill="#0d1117" stroke="#30363d"/>
 <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
 <text x="22" y="34" font-size="17" font-weight="700" fill="#58a6ff">📦 runs-on-what</text>
-<text x="22" y="62" font-size="13" fill="#c9d1d9">Will this model run on my machine? One command benchmarks</text><text x="22" y="81" font-size="13" fill="#c9d1d9">your hardware and opens a PR.</text>
-<text x="22" y="130" font-size="12.5" fill="#8b949e"><tspan fill="#d2a8ff">●</tspan> JavaScript   ★ 1   ⑂ 0</text>
+<text x="22" y="62" font-size="13" fill="#c9d1d9">Will this model run on my machine, and how fast? One command</text><text x="22" y="81" font-size="13" fill="#c9d1d9">benchmarks your hardware and opens a PR. Comparable numbers,</text><text x="22" y="100" font-size="13" fill="#c9d1d9">or none at all.</text>
+<text x="22" y="148" font-size="12.5" fill="#8b949e"><tspan fill="#d2a8ff">●</tspan> JavaScript   ★ 1   ⑂ 0</text>
 </g></svg>
