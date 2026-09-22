@@ -33,7 +33,7 @@ const snapAt = (daysAgo) => { const ks = Object.keys(hist.days).sort(); const ta
 const user = (await gqlPost(`{ user(login: "${OWNER}") { followers { totalCount } sponsors { totalCount } repositories(privacy: PUBLIC, ownerAffiliations: OWNER, first: 100) { totalCount nodes { stargazerCount } } } }`))?.user || {};
 const stars = (user.repositories?.nodes || []).reduce((s, r) => s + r.stargazerCount, 0) || lastSnap().stars;
 const repo = await get(`https://api.github.com/repos/${FULL}`) || {};
-const releases = await get(`https://api.github.com/repos/${FULL}/releases?per_page=100`) || [];
+const releases = [...(await get(`https://api.github.com/repos/${FULL}/releases?per_page=100&page=1`) || []), ...(await get(`https://api.github.com/repos/${FULL}/releases?per_page=100&page=2`) || [])];
 const issues = (await get(`https://api.github.com/repos/${FULL}/issues?state=open&per_page=100`) || []).filter((i) => !i.pull_request);
 const qStart = new Date(Date.UTC(new Date().getUTCFullYear(), Math.floor(new Date().getUTCMonth() / 3) * 3, 1)).toISOString().slice(0, 10);
 const closedQ = (await get(`https://api.github.com/search/issues?q=repo:${FULL}+is:issue+is:closed+closed:>=${qStart}`))?.total_count;
@@ -93,7 +93,7 @@ function bar(T, x, y, w, frac, color) { return `<rect x="${x}" y="${y}" width="$
 function write(name, build) { for (const theme of ['dark', 'light']) writeFileSync(`${name}-${theme}.svg`, build(theme)); }
 
 // ── 1. PRD ───────────────────────────────────────────────────────────────────
-write('cs-prd', (theme) => card(theme, { kicker: 'Product requirements · v79 · status: shipping', title: 'PRD: Mohit (the product)', height: 372, foot: `metrics live as of ${today}`, body: (T) => {
+write('cs-prd', (theme) => card(theme, { kicker: 'Product requirements · v79 · status: shipping', title: 'PRD: Mohit (the product)', height: 326, foot: `metrics live as of ${today}`, body: (T) => {
   const L = [];
   let y = 92;
   L.push(kv(T, 24, y, 'Problem', 'AI answers like a very confident intern. The moments that matter need the senior colleague\'s notes.')); y += 26;
@@ -111,13 +111,13 @@ write('cs-prd', (theme) => card(theme, { kicker: 'Product requirements · v79 ·
 const sec = (name) => { const m = roadmap.match(new RegExp(`^## [^\\n]*${name}[^\\n]*\\n([\\s\\S]*?)(?=^## |(?![\\s\\S]))`, 'm')); return m ? m[1].split('\n').filter((l) => /^- /.test(l)).map((l) => l.replace(/^- /, '').replace(/\*\*/g, '').replace(/\[([^\]]+)\]\([^)]*\)/g, '$1').replace(/`/g, '')).slice(0, 4) : []; };
 const NOW = sec('Now'), NEXT = sec('Next'), LATER = sec('Later');
 const NEVER = ['a Discord', 'a token', 'a rebrand to "PM Skills AI"', 'a skill that says "it depends"'];
-write('cs-roadmap', (theme) => card(theme, { kicker: 'Roadmap · from ROADMAP.md, except the last column', title: 'Now / Next / Later / Never', height: 330, foot: 'never is load-bearing', body: (T) => {
+write('cs-roadmap', (theme) => card(theme, { kicker: 'Roadmap · from ROADMAP.md, except the last column', title: 'Now / Next / Later / Never', height: 372, foot: 'never is load-bearing', body: (T) => {
   const cols = [['NOW', NOW.length ? NOW : ['the decision layer'], T.good], ['NEXT', NEXT.length ? NEXT : ['expert-reviewed badges'], T.accent], ['LATER', LATER.length ? LATER : ['the printed edition'], T.warn], ['NEVER', NEVER, T.bad]];
-  return cols.map(([h, items, c], i) => { const x = 24 + i * 180; let y = 92; const out = [t(x, y, h, { size: 11, fill: c, weight: 700 })]; y += 20; for (const it of items.slice(0, 4)) { for (const l of wrap(it, 24).slice(0, 3)) { out.push(t(x, y, l, { size: 12, fill: T.text })); y += 16; } y += 6; } return out.join('\n'); }).join('\n');
+  return cols.map(([h, items, c], i) => { const x = 24 + i * 180; let y = 92; const out = [t(x, y, h, { size: 11, fill: c, weight: 700 })]; y += 20; for (const it of items.slice(0, 4)) { for (const l of wrap(it, 24).slice(0, 4)) { out.push(t(x, y, l, { size: 12, fill: T.text })); y += 16; } y += 6; } return out.join('\n'); }).join('\n');
 } }));
 
 // ── 3. Timeline ─────────────────────────────────────────────────────────────
-const rel = releases.map((r) => ({ tag: r.tag_name, date: (r.published_at || '').slice(0, 10), name: (r.name || '').replace(/^v[\d.]+\s*[—-]\s*/, '') })).filter((r) => r.date).sort((a, b) => a.date.localeCompare(b.date));
+const rel = releases.map((r) => ({ tag: r.tag_name, date: (r.published_at || '').slice(0, 10), name: (r.name || '').replace(/^v?[\d.]+\s*[—–-]+\s*/, '') })).filter((r) => r.date).sort((a, b) => a.date.localeCompare(b.date));
 const picks = []; if (rel.length) { picks.push(rel[0]); const majors = rel.filter((r) => /\.0\.0$/.test(r.tag)); const step = Math.max(1, Math.floor(majors.length / 5)); for (let i = step; i < majors.length - 1; i += step) picks.push(majors[i]); picks.push(rel[rel.length - 1]); }
 write('cs-timeline', (theme) => card(theme, { kicker: 'Changelog · semantic versioning applied to a person', title: 'Release history (major bumps are life events)', height: 96 + Math.max(1, picks.length) * 34 + 30, foot: `${rel.length} releases on record`, body: (T) => {
   let y = 92; const out = [`<line x1="88" y1="86" x2="88" y2="${86 + picks.length * 34}" stroke="${T.line}" stroke-width="2"/>`];
@@ -135,10 +135,10 @@ write('cs-retro', (theme) => card(theme, { kicker: `Retrospective · quarter sta
 } }));
 
 // ── 5. Funnel ───────────────────────────────────────────────────────────────
-write('cs-funnel', (theme) => card(theme, { kicker: 'Acquisition funnel · the drop-offs are the point', title: 'Repo views → visitors → clones → installs → runs', height: 300, foot: snap.trafficLive ? 'traffic: last 14 days · installs: last 30 days · runs: all time' : `traffic as of last snapshot · set PROFILE_TOKEN to refresh`, body: (T) => {
+write('cs-funnel', (theme) => card(theme, { kicker: 'Acquisition funnel · the drop-offs are the point', title: 'Repo views → visitors → clones → installs → runs', height: 336, foot: snap.trafficLive ? 'traffic: last 14 days · installs: last 30 days · runs: all time' : `traffic as of last snapshot · set PROFILE_TOKEN to refresh`, body: (T) => {
   const steps = [['views (14d)', snap.views14], ['unique visitors', snap.uniques14], ['clones (14d)', snap.clones14], ['npm installs (30d)', snap.npmMonth], ['free runs served', freeRuns]];
   const max = Math.max(...steps.map((s) => +s[1] || 0), 1); let y = 92; const out = [];
-  steps.forEach(([k, v], i) => { const prev = steps[i - 1]?.[1]; const conv = prev && v != null ? `${Math.round(100 * v / prev)}% of previous` : ''; out.push(t(24, y, k, { size: 12, fill: T.dim })); out.push(t(736, y, fmt(v), { size: 13, fill: T.text, anchor: 'end', weight: 700 })); out.push(bar(T, 24, y + 8, 712, (+v || 0) / max, i === steps.length - 1 ? T.good : T.accent)); if (conv) out.push(t(736, y + 30, conv, { size: 10, fill: T.dim, anchor: 'end' })); y += 40; });
+  steps.forEach(([k, v], i) => { const prev = steps[i - 1]?.[1]; const conv = prev && v != null ? `${Math.round(100 * v / prev)}% of previous` : ''; out.push(t(24, y, k, { size: 12, fill: T.dim })); out.push(t(736, y, fmt(v), { size: 13, fill: T.text, anchor: 'end', weight: 700 })); if (conv) out.push(t(640, y, conv, { size: 10, fill: T.dim, anchor: 'end' })); out.push(bar(T, 24, y + 8, 712, (+v || 0) / max, i === steps.length - 1 ? T.good : T.accent)); y += 42; });
   return out.join('\n');
 } }));
 
@@ -160,11 +160,11 @@ write('cs-teardown', (theme) => card(theme, { kicker: 'Competitive teardown · o
 } }));
 
 // ── 8. Launch post for the skill of the day ────────────────────────────────
-const desc = String(todayJ.description || '').replace(/\s+/g, ' '); const first = desc.split(/(?<=\.)\s/)[0] || 'A skill your assistant can read.'; const useWhen = (desc.match(/Use when ([^.]*)\./i) || [])[1];
-write('cs-launch', (theme) => card(theme, { kicker: `Launch post · regenerated every morning · ${today}`, title: `Introducing ${todayJ.title || todayJ.name || 'today\'s skill'}`, height: 262, foot: 'one of the library\'s skills, launched again like it\'s new', body: (T) => {
+const desc = String(todayJ.description || '').replace(/\s+/g, ' '); let first = desc.split(/(?<=\.)\s/)[0] || 'A skill your assistant can read.'; if (first.length > 240) first = first.slice(0, 237).replace(/\s+\S*$/, '') + '…'; const useWhen = (desc.match(/Use when ([^.]*)\./i) || [])[1];
+write('cs-launch', (theme) => card(theme, { kicker: `Launch post · regenerated every morning · ${today}`, title: `Introducing ${todayJ.title || todayJ.name || 'today\'s skill'}`, height: 300, foot: 'one of the library\'s skills, launched again like it\'s new', body: (T) => {
   let y = 92; const out = [];
   for (const l of wrap(first, 84).slice(0, 3)) { out.push(t(24, y, l, { size: 14, fill: T.text })); y += 20; }
-  y += 6; if (useWhen) { out.push(t(24, y, 'WHO IT\'S FOR', { size: 11, fill: T.dim })); y += 18; for (const l of wrap(`anyone who would say: ${useWhen}`, 84).slice(0, 2)) { out.push(t(24, y, l, { size: 13, fill: T.text })); y += 18; } y += 6; }
+  y += 6; if (useWhen) { out.push(t(24, y, 'WHO IT\'S FOR', { size: 11, fill: T.dim })); y += 18; { const ls = wrap(`anyone who would say: ${useWhen}`, 84); const shown = ls.slice(0, 2); if (ls.length > 2) shown[1] = shown[1].replace(/\s+\S*$/, '') + '…'; for (const l of shown) { out.push(t(24, y, l, { size: 13, fill: T.text })); y += 18; } } y += 6; }
   out.push(t(24, y, 'INSTALL', { size: 11, fill: T.dim })); y += 20;
   out.push(`<rect x="24" y="${y - 15}" width="712" height="28" rx="6" fill="${T.panel}" stroke="${T.line}"/>`); out.push(t(36, y + 4, `$ npx pm-claude-skills add ${todayJ.name || ''}`, { size: 13, fill: T.good, mono: true }));
   return out.join('\n');
