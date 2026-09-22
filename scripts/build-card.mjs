@@ -93,13 +93,17 @@ function render(theme) {
 </style>
 <rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="14" fill="${T.bg}" stroke="${T.border}"/>
 <circle cx="24" cy="24" r="6" fill="#ff5f56"/><circle cx="44" cy="24" r="6" fill="#ffbd2e"/><circle cx="64" cy="24" r="6" fill="#27c93f" class="dot"/>
-<text x="${W / 2}" y="30" text-anchor="middle" class="hint">mohit@github ~ % neofetch --profile</text>
-<text x="${x0}" y="${y0 - 26}" class="title">mohit<tspan class="dim">@</tspan>github</text>
-<text x="${x0}" y="${y0 - 10}" class="dim">${'─'.repeat(52)}</text>
+<text x="${W / 2}" y="30" text-anchor="middle" class="hint" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">mohit@github ~ % neofetch --profile</text>
+<text x="${x0}" y="${y0 - 26}" class="title" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">mohit<tspan class="dim">@</tspan>github</text>
+<text x="${x0}" y="${y0 - 10}" class="dim" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14">${'─'.repeat(52)}</text>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13">
 ${artLines}
+</g>
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14">
 ${body.join('\n')}
-<text x="${x0}" y="${y + 6}"><tspan class="dim">$ </tspan><tspan class="cursor">▌</tspan></text>
-<text x="${W - 24}" y="${H - 14}" text-anchor="end" class="hint">updated ${now.toISOString().slice(0, 10)} · rebuilt daily by a GitHub Action</text>
+</g>
+<text x="${x0}" y="${y + 6}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14"><tspan class="dim">$ </tspan><tspan class="cursor">▌</tspan></text>
+<text x="${W - 24}" y="${H - 14}" text-anchor="end" class="hint" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">updated ${now.toISOString().slice(0, 10)} · rebuilt daily by a GitHub Action</text>
 </svg>
 `;
 }
