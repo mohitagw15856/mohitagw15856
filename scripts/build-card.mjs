@@ -75,7 +75,7 @@ function render(theme) {
     ? { bg: '#0d1117', border: '#30363d', text: '#c9d1d9', key: '#ffa657', val: '#a5d6ff', dim: '#8b949e', art: '#7ee787', accent: '#d2a8ff' }
     : { bg: '#ffffff', border: '#d0d7de', text: '#24292f', key: '#953800', val: '#0a3069', dim: '#57606a', art: '#1a7f37', accent: '#8250df' };
   const W = 1000, H = 470, LH = 22, x0 = 420, y0 = 74;
-  const artLines = ART.map((l, i) => `<text x="28" y="${y0 - 14 + i * 21}" class="art">${esc(l).replace(/ /g, ' ')}</text>`).join('\n');
+  const artLines = ART.map((l, i) => `<text x="28" y="${y0 - 4 + i * 21}" class="art">${esc(l).replace(/ /g, ' ')}</text>`).join('\n');
   let y = y0; const body = [];
   for (const r of rows) {
     if (!r) { y += 10; continue; }
