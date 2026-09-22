@@ -7,9 +7,9 @@
 <p align="center">
   <a href="https://github.com/mohitagw15856/pm-claude-skills">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-dark.svg?v=2">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-light.svg?v=2">
-      <img alt="1166 agent skills, one markdown file each. Decode the lease before you sign it. Ship or slip? A probability, not a paragraph. PM stands for Professional." src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-dark.svg?v=2" width="760">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-dark.svg?v=3">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-light.svg?v=3">
+      <img alt="1166 agent skills, one markdown file each. Decode the lease before you sign it. Ship or slip? A probability, not a paragraph. PM stands for Professional." src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-dark.svg?v=3" width="760">
     </picture>
   </a>
 </p>
