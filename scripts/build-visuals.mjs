@@ -91,25 +91,31 @@ write('vis-galaxy', (theme) => card(theme, { kicker: `galaxy minimap · ${fmt(sk
 
 // ── 2. cinemagraph ──────────────────────────────────────────────────────────
 write('vis-cinemagraph', (theme) => card(theme, { kicker: 'the whole product in eight seconds · loops', title: 'A prompt → a typed decision → an artifact', height: 300, foot: 'the numbers shown are a real route from the decision layer', body: (T) => {
+  // GitHub strips inline style attributes from SVG images, so every delay is a generated class.
   const prompt = 'my landlord kept my security deposit';
-  const chars = [...prompt].map((c, i) => `<tspan class="ch" style="animation-delay:${(0.2 + i * 0.05).toFixed(2)}s">${esc(c === ' ' ? ' ' : c)}</tspan>`).join('');
-  const bars = [['security-deposit-recovery', 0.92, T.good], ['lease-decoder', 0.05, T.accent], ['tenant-rights-explainer', 0.02, T.accent]].map(([n, p, c], i) => `<text x="24" y="${146 + i * 24}" font-size="12" fill="${T.text}" class="bar" style="animation-delay:${(2.4 + i * 0.25).toFixed(2)}s">${esc(n)}</text><rect x="230" y="${137 + i * 24}" width="240" height="8" rx="4" fill="${T.line}"/><rect class="fill" style="animation-delay:${(2.6 + i * 0.25).toFixed(2)}s;--w:${Math.round(240 * p)}px" x="230" y="${137 + i * 24}" width="${Math.round(240 * p)}" height="8" rx="4" fill="${c}"/><text x="480" y="${146 + i * 24}" font-size="12" fill="${T.dim}" class="bar" style="animation-delay:${(2.6 + i * 0.25).toFixed(2)}s" ${MONO}>${p.toFixed(2)}</text>`).join('');
-  const art = ['# Deposit Recovery: $1,500 · phase: challenging', '| Claimed | Amount | Type | Response |', '| Cleaning | $400 | unsubstantiated | request itemised receipt |', '| Paint | $800 | wear, 3-year tenancy | cite useful life |', 'Next: the demand letter, sent within 7 days.'].map((l, i) => `<text x="24" y="${230 + i * 15}" font-size="11" fill="${i === 0 ? T.title : T.text}" class="art" style="animation-delay:${(4.6 + i * 0.3).toFixed(2)}s" ${MONO}>${esc(l)}</text>`).join('');
+  const rules = [];
+  const chars = [...prompt].map((c, i) => { rules.push(`.c${i}{animation-delay:${(0.2 + i * 0.05).toFixed(2)}s}`); return `<text class="ch c${i}" x="${(48 + i * 8.4).toFixed(1)}" y="122" font-size="13" fill="${T.text}" ${MONO}>${esc(c === ' ' ? ' ' : c)}</text>`; }).join('');
+  const rows = [['security-deposit-recovery', 0.92, T.good], ['lease-decoder', 0.05, T.accent], ['tenant-rights-explainer', 0.02, T.accent]];
+  const bars = rows.map(([n, p, c], i) => { rules.push(`.b${i}{animation-delay:${(2.4 + i * 0.25).toFixed(2)}s}`, `.f${i}{animation-delay:${(2.6 + i * 0.25).toFixed(2)}s}`); return `<text class="rv b${i}" x="24" y="${146 + i * 24}" font-size="12" fill="${T.text}">${esc(n)}</text><rect x="230" y="${137 + i * 24}" width="240" height="8" rx="4" fill="${T.line}"/><rect class="fill f${i}" x="230" y="${137 + i * 24}" width="${Math.round(240 * p)}" height="8" rx="4" fill="${c}"/><text class="rv b${i}" x="480" y="${146 + i * 24}" font-size="12" fill="${T.dim}" ${MONO}>${p.toFixed(2)}</text>`; }).join('');
+  const lines = ['# Deposit Recovery: $1,500 · phase: challenging', '| Claimed | Amount | Type | Response |', '| Cleaning | $400 | unsubstantiated | request itemised receipt |', '| Paint | $800 | wear, 3-year tenancy | cite useful life |', 'Next: the demand letter, sent within 7 days.'];
+  const art = lines.map((l, i) => { rules.push(`.a${i}{animation-delay:${(4.6 + i * 0.3).toFixed(2)}s}`); return `<text class="rv a${i}" x="24" y="${230 + i * 15}" font-size="11" fill="${i === 0 ? T.title : T.text}" ${MONO}>${esc(l)}</text>`; }).join('');
+  rules.push('.hb{animation-delay:2.4s}', '.ha{animation-delay:4.4s}');
   return `<style>
-  .ch{opacity:0;animation:show 9s linear infinite}.bar{opacity:0;animation:show 9s linear infinite}.art{opacity:0;animation:show 9s linear infinite}
+  .ch,.rv{opacity:0;animation:show 9s linear infinite}
   .fill{transform:scaleX(0);transform-box:fill-box;transform-origin:left center;animation:grow 9s linear infinite}
   @keyframes show{0%{opacity:0}1%{opacity:1}92%{opacity:1}100%{opacity:0}}
   @keyframes grow{0%{transform:scaleX(0)}8%{transform:scaleX(1)}92%{transform:scaleX(1)}100%{transform:scaleX(0)}}
   .cur{animation:blink 1s steps(2,start) infinite}@keyframes blink{to{visibility:hidden}}
+  ${rules.join('')}
 </style>
 <text x="24" y="96" font-size="11" fill="${T.dim}">YOU TYPE</text>
 <rect x="24" y="104" width="712" height="26" rx="6" fill="${T.panel}" stroke="${T.line}"/>
-<text x="34" y="122" font-size="13" fill="${T.text}" ${MONO}><tspan fill="${T.dim}">$ </tspan>${chars}<tspan class="cur">▌</tspan></text>
-<text x="24" y="132" font-size="0"> </text>
-<text x="24" y="140" font-size="0"> </text>
-<text x="500" y="146" font-size="11" fill="${T.dim}" class="bar" style="animation-delay:2.4s">THE ROUTER PICKS · confidence 0.87</text>
+<text x="34" y="122" font-size="13" fill="${T.dim}" ${MONO}>$</text>
+${chars}
+<text class="cur" x="${(48 + prompt.length * 8.4 + 2).toFixed(1)}" y="122" font-size="13" fill="${T.text}" ${MONO}>▌</text>
+<text class="rv hb" x="500" y="146" font-size="11" fill="${T.dim}">THE ROUTER PICKS · confidence 0.87</text>
 ${bars}
-<text x="24" y="214" font-size="11" fill="${T.dim}" class="art" style="animation-delay:4.4s">THE SKILL PRODUCES</text>
+<text class="rv ha" x="24" y="214" font-size="11" fill="${T.dim}">THE SKILL PRODUCES</text>
 ${art}`;
 } }));
 
