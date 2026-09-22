@@ -101,8 +101,8 @@ write('vis-cinemagraph', (theme) => card(theme, { kicker: 'the whole product in 
   const art = lines.map((l, i) => { rules.push(`.a${i}{animation-delay:${(4.6 + i * 0.3).toFixed(2)}s}`); return `<text class="rv a${i}" x="24" y="${230 + i * 15}" font-size="11" fill="${i === 0 ? T.title : T.text}" ${MONO}>${esc(l)}</text>`; }).join('');
   rules.push('.hb{animation-delay:2.4s}', '.ha{animation-delay:4.4s}');
   return `<style>
-  .ch,.rv{opacity:0;animation:show 9s linear infinite}
-  .fill{transform:scaleX(0);transform-box:fill-box;transform-origin:left center;animation:grow 9s linear infinite}
+  .ch,.rv{opacity:1;animation:show 9s linear infinite both}
+  .fill{transform:scaleX(1);transform-box:fill-box;transform-origin:left center;animation:grow 9s linear infinite both}
   @keyframes show{0%{opacity:0}1%{opacity:1}92%{opacity:1}100%{opacity:0}}
   @keyframes grow{0%{transform:scaleX(0)}8%{transform:scaleX(1)}92%{transform:scaleX(1)}100%{transform:scaleX(0)}}
   .cur{animation:blink 1s steps(2,start) infinite}@keyframes blink{to{visibility:hidden}}

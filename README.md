@@ -7,9 +7,9 @@
 <p align="center">
   <a href="https://github.com/mohitagw15856/pm-claude-skills">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-dark.svg?v=3">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-light.svg?v=3">
-      <img alt="1166 agent skills, one markdown file each. Decode the lease before you sign it. Ship or slip? A probability, not a paragraph. PM stands for Professional." src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-dark.svg?v=3" width="760">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-dark.svg?v=4">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-light.svg?v=4">
+      <img alt="1166 agent skills, one markdown file each. Decode the lease before you sign it. Ship or slip? A probability, not a paragraph. PM stands for Professional." src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-dark.svg?v=4" width="760">
     </picture>
   </a>
 </p>
@@ -22,9 +22,9 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-cinemagraph-dark.svg?v=3">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-cinemagraph-light.svg?v=3">
-  <img alt="Eight-second loop: a prompt is typed, the router picks security-deposit-recovery with probability 0.92, and the artifact appears" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-cinemagraph-dark.svg?v=3" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-cinemagraph-dark.svg?v=4">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-cinemagraph-light.svg?v=4">
+  <img alt="Eight-second loop: a prompt is typed, the router picks security-deposit-recovery with probability 0.92, and the artifact appears" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-cinemagraph-dark.svg?v=4" width="100%">
 </picture>
 
 <picture>
