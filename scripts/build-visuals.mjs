@@ -98,7 +98,7 @@ write('vis-cinemagraph', (theme) => card(theme, { kicker: 'the whole product in 
   const rows = [['security-deposit-recovery', 0.92, T.good], ['lease-decoder', 0.05, T.accent], ['tenant-rights-explainer', 0.02, T.accent]];
   const bars = rows.map(([n, p, c], i) => { rules.push(`.b${i}{animation-delay:${(2.4 + i * 0.25).toFixed(2)}s}`, `.f${i}{animation-delay:${(2.6 + i * 0.25).toFixed(2)}s}`); return `<text class="rv b${i}" x="24" y="${146 + i * 24}" font-size="12" fill="${T.text}">${esc(n)}</text><rect x="230" y="${137 + i * 24}" width="240" height="8" rx="4" fill="${T.line}"/><rect class="fill f${i}" x="230" y="${137 + i * 24}" width="${Math.round(240 * p)}" height="8" rx="4" fill="${c}"/><text class="rv b${i}" x="480" y="${146 + i * 24}" font-size="12" fill="${T.dim}" ${MONO}>${p.toFixed(2)}</text>`; }).join('');
   const lines = ['# Deposit Recovery: $1,500 · phase: challenging', '| Claimed | Amount | Type | Response |', '| Cleaning | $400 | unsubstantiated | request itemised receipt |', '| Paint | $800 | wear, 3-year tenancy | cite useful life |', 'Next: the demand letter, sent within 7 days.'];
-  const art = lines.map((l, i) => { rules.push(`.a${i}{animation-delay:${(4.6 + i * 0.3).toFixed(2)}s}`); return `<text class="rv a${i}" x="24" y="${230 + i * 15}" font-size="11" fill="${i === 0 ? T.title : T.text}" ${MONO}>${esc(l)}</text>`; }).join('');
+  const art = lines.map((l, i) => { rules.push(`.a${i}{animation-delay:${(4.6 + i * 0.3).toFixed(2)}s}`); return `<text class="rv a${i}" x="24" y="${227 + i * 14}" font-size="11" fill="${i === 0 ? T.title : T.text}" ${MONO}>${esc(l)}</text>`; }).join('');
   rules.push('.hb{animation-delay:2.4s}', '.ha{animation-delay:4.4s}');
   return `<style>
   .ch,.rv{opacity:1;animation:show 9s linear infinite both}
@@ -113,9 +113,9 @@ write('vis-cinemagraph', (theme) => card(theme, { kicker: 'the whole product in 
 <text x="34" y="122" font-size="13" fill="${T.dim}" ${MONO}>$</text>
 ${chars}
 <text class="cur" x="${(48 + prompt.length * 8.4 + 2).toFixed(1)}" y="122" font-size="13" fill="${T.text}" ${MONO}>▌</text>
-<text class="rv hb" x="500" y="146" font-size="11" fill="${T.dim}">THE ROUTER PICKS · confidence 0.87</text>
+<text class="rv hb" x="560" y="146" font-size="11" fill="${T.dim}">THE ROUTER PICKS · confidence 0.87</text>
 ${bars}
-<text class="rv ha" x="24" y="214" font-size="11" fill="${T.dim}">THE SKILL PRODUCES</text>
+<text class="rv ha" x="24" y="212" font-size="11" fill="${T.dim}">THE SKILL PRODUCES</text>
 ${art}`;
 } }));
 
