@@ -32,28 +32,32 @@ The rule for everything I ship: **it has to be measured, or it has to say it isn
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/mohitagw15856/pm-claude-skills"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=mohitagw15856&repo=pm-claude-skills&theme=github_dark&hide_border=true&bg_color=0d1117">
-<img alt="pm-claude-skills" src="https://github-readme-stats.vercel.app/api/pin/?username=mohitagw15856&repo=pm-claude-skills&hide_border=true"></picture></a>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-pm-claude-skills-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-pm-claude-skills-light.svg">
+<img alt="pm-claude-skills" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-pm-claude-skills-dark.svg" width="100%"></picture></a>
 <br><sub><b>The library.</b> 1166 skills, 132 bundles, a playground, an MCP server, and a typed decision layer that answers <i>which skill? is this safe? ship or slip?</i> with a probability.</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/mohitagw15856/notugly"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=mohitagw15856&repo=notugly&theme=github_dark&hide_border=true&bg_color=0d1117">
-<img alt="notugly" src="https://github-readme-stats.vercel.app/api/pin/?username=mohitagw15856&repo=notugly&hide_border=true"></picture></a>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-notugly-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-notugly-light.svg">
+<img alt="notugly" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-notugly-dark.svg" width="100%"></picture></a>
 <br><sub><b>Provably not ugly.</b> Generate a design system from a seed; every text pairing clears WCAG AA before you see it. A GitHub Action fails your PR on a contrast regression.</sub>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <a href="https://github.com/mohitagw15856/rulebook"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=mohitagw15856&repo=rulebook&theme=github_dark&hide_border=true&bg_color=0d1117">
-<img alt="rulebook" src="https://github-readme-stats.vercel.app/api/pin/?username=mohitagw15856&repo=rulebook&hide_border=true"></picture></a>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-rulebook-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-rulebook-light.svg">
+<img alt="rulebook" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-rulebook-dark.svg" width="100%"></picture></a>
 <br><sub><b>Settle the argument.</b> 37 board and card games, 203 rulings, and which house rules are actually real. With an MCP server, because of course.</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/mohitagw15856/runs-on-what"><picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/pin/?username=mohitagw15856&repo=runs-on-what&theme=github_dark&hide_border=true&bg_color=0d1117">
-<img alt="runs-on-what" src="https://github-readme-stats.vercel.app/api/pin/?username=mohitagw15856&repo=runs-on-what&hide_border=true"></picture></a>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-runs-on-what-dark.svg">
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-runs-on-what-light.svg">
+<img alt="runs-on-what" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/repo-runs-on-what-dark.svg" width="100%"></picture></a>
 <br><sub><b>Will this model run on my machine?</b> One command benchmarks your hardware and opens a PR. Comparable numbers, or none at all.</sub>
 </td>
 </tr>
@@ -65,18 +69,7 @@ The rule for everything I ship: **it has to be measured, or it has to say it isn
 Firmware for the Xteink X4/X3 e-readers (ESP32-C3), because a $40 e-ink device deserves better software: <a href="https://github.com/mohitagw15856/Inkcards">Inkcards</a> (spaced-repetition flashcards, Anki import), <a href="https://github.com/mohitagw15856/PocketWiki">PocketWiki</a> (offline Wikipedia/Kiwix reader) and <a href="https://github.com/mohitagw15856/Inkkit">Inkkit</a> (the shared hardware layer, host-testable).
 </details>
 
-## 📈 The numbers
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=mohitagw15856&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&include_all_commits=true&count_private=true&rank_icon=github">
-    <img alt="Mohit's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=mohitagw15856&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" height="165">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=mohitagw15856&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&hide=html,css">
-    <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mohitagw15856&layout=compact&hide_border=true&hide=html,css" height="165">
-  </picture>
-</p>
+## 🐍 This year, as eaten by a snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/output/github-snake-dark.svg">

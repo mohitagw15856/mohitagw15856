@@ -109,4 +109,31 @@ ${body.join('\n')}
 }
 writeFileSync('card-dark.svg', render('dark'));
 writeFileSync('card-light.svg', render('light'));
-console.log(`card-dark.svg + card-light.svg — stars ${stars}, repos ${u.repositories?.totalCount}, skills ${skills.count}, today ${today.name || '-'}`);
+
+// ── Featured repo cards (self-hosted; no third-party stats service to go 503) ──
+const FEATURED = [
+  ['pm-claude-skills', 'The library. 1166 skills, 132 bundles, a playground, an MCP server, and a typed decision layer.'],
+  ['notugly', 'Provably not ugly. A design system from a seed; every pairing clears WCAG AA. Fails your PR on a contrast regression.'],
+  ['rulebook', 'Settle the argument. 37 board and card games, 203 rulings, and which house rules are actually real.'],
+  ['runs-on-what', 'Will this model run on my machine? One command benchmarks your hardware and opens a PR.'],
+];
+const byName = Object.fromEntries(repos.map((r) => [r.name, r]));
+function wrap(text, max) { const out = []; let line = ''; for (const w of text.split(' ')) { if ((line + ' ' + w).trim().length > max) { out.push(line.trim()); line = w; } else line += ' ' + w; } if (line.trim()) out.push(line.trim()); return out.slice(0, 3); }
+function repoCard(name, blurb, theme) {
+  const T = theme === 'dark'
+    ? { bg: '#0d1117', border: '#30363d', text: '#c9d1d9', title: '#58a6ff', dim: '#8b949e', accent: '#d2a8ff' }
+    : { bg: '#ffffff', border: '#d0d7de', text: '#24292f', title: '#0969da', dim: '#57606a', accent: '#8250df' };
+  const r = byName[name] || {}; const W = 480, H = 150;
+  const lines = wrap(blurb, 60).map((l, i) => `<text x="22" y="${62 + i * 19}" font-size="13" fill="${T.text}">${esc(l)}</text>`).join('');
+  const lang = r.primaryLanguage?.name || 'Markdown';
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(name)}: ${esc(blurb)}">
+<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="10" fill="${T.bg}" stroke="${T.border}"/>
+<g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="22" y="34" font-size="17" font-weight="700" fill="${T.title}">📦 ${esc(name)}</text>
+${lines}
+<text x="22" y="${H - 20}" font-size="12.5" fill="${T.dim}"><tspan fill="${T.accent}">●</tspan> ${esc(lang)}   ★ ${fmt(r.stargazerCount ?? 0)}   ⑂ ${fmt(r.forkCount ?? 0)}</text>
+</g></svg>
+`;
+}
+for (const [name, blurb] of FEATURED) { writeFileSync(`repo-${name}-dark.svg`, repoCard(name, blurb, 'dark')); writeFileSync(`repo-${name}-light.svg`, repoCard(name, blurb, 'light')); }
+console.log(`card + ${FEATURED.length} repo cards (dark/light) — stars ${stars}, repos ${u.repositories?.totalCount}, skills ${skills.count}, today ${today.name || '-'}`);

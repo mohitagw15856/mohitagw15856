@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="150" viewBox="0 0 480 150" role="img" aria-label="notugly: Provably not ugly. A design system from a seed; every pairing clears WCAG AA. Fails your PR on a contrast regression.">
+<rect x="0.5" y="0.5" width="479" height="149" rx="10" fill="#ffffff" stroke="#d0d7de"/>
+<g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="22" y="34" font-size="17" font-weight="700" fill="#0969da">📦 notugly</text>
+<text x="22" y="62" font-size="13" fill="#24292f">Provably not ugly. A design system from a seed; every</text><text x="22" y="81" font-size="13" fill="#24292f">pairing clears WCAG AA. Fails your PR on a contrast</text><text x="22" y="100" font-size="13" fill="#24292f">regression.</text>
+<text x="22" y="130" font-size="12.5" fill="#57606a"><tspan fill="#8250df">●</tspan> JavaScript   ★ 1   ⑂ 0</text>
+</g></svg>
