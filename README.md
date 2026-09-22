@@ -72,30 +72,30 @@ Firmware for the Xteink X4/X3 e-readers (ESP32-C3), because a $40 e-ink device d
 
 ### 1 · The PRD
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-prd-dark.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-prd-light.svg?v=1">
-  <img alt="PRD for Mohit the product: problem, users, solution, non-goals, open question, and five live success metrics" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-prd-dark.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-prd-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-prd-light.svg?v=2">
+  <img alt="PRD for Mohit the product: problem, users, solution, non-goals, open question, and five live success metrics" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-prd-dark.svg?v=2" width="100%">
 </picture>
 
 ### 2 · The roadmap
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-dark.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-light.svg?v=1">
-  <img alt="Roadmap: Now, Next and Later pulled from ROADMAP.md, and a Never column that is entirely hand-written" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-dark.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-light.svg?v=2">
+  <img alt="Roadmap: Now, Next and Later pulled from ROADMAP.md, and a Never column that is entirely hand-written" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-dark.svg?v=2" width="100%">
 </picture>
 
 ### 3 · The changelog
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-timeline-dark.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-timeline-light.svg?v=1">
-  <img alt="Release timeline of pm-claude-skills, semantic versioning applied to a person" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-timeline-dark.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-timeline-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-timeline-light.svg?v=2">
+  <img alt="Release timeline of pm-claude-skills, semantic versioning applied to a person" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-timeline-dark.svg?v=2" width="100%">
 </picture>
 
 ### 4 · The funnel
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-funnel-dark.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-funnel-light.svg?v=1">
-  <img alt="Acquisition funnel: repo views, unique visitors, clones, npm installs and free runs, with conversion between steps" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-funnel-dark.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-funnel-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-funnel-light.svg?v=2">
+  <img alt="Acquisition funnel: repo views, unique visitors, clones, npm installs and free runs, with conversion between steps" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-funnel-dark.svg?v=2" width="100%">
 </picture>
 
 ### 5 · Onboarding
@@ -121,16 +121,16 @@ Firmware for the Xteink X4/X3 e-readers (ESP32-C3), because a $40 e-ink device d
 
 ### 8 · The competitive teardown
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-teardown-dark.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-teardown-light.svg?v=1">
-  <img alt="Feature matrix: Mohit versus a generic AI assistant, with evidence rows from the evals and benchmarks" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-teardown-dark.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-teardown-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-teardown-light.svg?v=2">
+  <img alt="Feature matrix: Mohit versus a generic AI assistant, with evidence rows from the evals and benchmarks" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-teardown-dark.svg?v=2" width="100%">
 </picture>
 
 ### 9 · Today's launch
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-launch-dark.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-launch-light.svg?v=1">
-  <img alt="Launch post for the skill of the day, regenerated every morning" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-launch-dark.svg?v=1" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-launch-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-launch-light.svg?v=2">
+  <img alt="Launch post for the skill of the day, regenerated every morning" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-launch-dark.svg?v=2" width="100%">
 </picture>
 
 ### 10 · How to reach me, RICE-prioritised
