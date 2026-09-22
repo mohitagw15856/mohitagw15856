@@ -144,7 +144,7 @@ function tagline(theme) {
   const T = theme === 'dark' ? { fg: '#d2a8ff', dim: '#8b949e' } : { fg: '#6e40c9', dim: '#57606a' };
   const W = 760, H = 44, per = 3.2, total = per * LINES.length;
   const items = LINES.map((l, i) => `<text class="l l${i}" x="${W / 2}" y="29" text-anchor="middle" font-size="19" font-weight="600" fill="${T.fg}">${esc(l)}</text>`).join('\n');
-  const delays = LINES.map((_, i) => `.l${i} { animation-delay: ${(i * per).toFixed(2)}s }`).join(' ');
+  const delays = LINES.map((_, i) => `.l${i} { animation-delay: ${(0.6 + i * per).toFixed(2)}s }`).join(' ');
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(LINES.join(' '))}">
 <style>
   .l { opacity: 0; animation: cycle ${total}s linear infinite; } .l0 { opacity: 1; } ${delays}
