@@ -143,10 +143,11 @@ const LINES = ['1166 agent skills, one markdown file each.', 'Decode the lease b
 function tagline(theme) {
   const T = theme === 'dark' ? { fg: '#d2a8ff', dim: '#8b949e' } : { fg: '#6e40c9', dim: '#57606a' };
   const W = 760, H = 44, per = 3.2, total = per * LINES.length;
-  const items = LINES.map((l, i) => `<text class="l" style="animation-delay:${(i * per).toFixed(2)}s" x="${W / 2}" y="29" text-anchor="middle" font-size="19" font-weight="600" fill="${T.fg}">${esc(l)}</text>`).join('\n');
+  const items = LINES.map((l, i) => `<text class="l l${i}" x="${W / 2}" y="29" text-anchor="middle" font-size="19" font-weight="600" fill="${T.fg}">${esc(l)}</text>`).join('\n');
+  const delays = LINES.map((_, i) => `.l${i} { animation-delay: ${(i * per).toFixed(2)}s }`).join(' ');
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(LINES.join(' '))}">
 <style>
-  .l { opacity: 0; animation: cycle ${total}s linear infinite; }
+  .l { opacity: 0; animation: cycle ${total}s linear infinite; } ${delays}
   @keyframes cycle { 0% { opacity: 0 } 3% { opacity: 1 } 22% { opacity: 1 } 25% { opacity: 0 } 100% { opacity: 0 } }
   .c { animation: blink 1.1s steps(2, start) infinite; } @keyframes blink { to { visibility: hidden } }
 </style>

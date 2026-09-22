@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="44" viewBox="0 0 760 44" role="img" aria-label="1166 agent skills, one markdown file each. Decode the lease before you sign it. Ship or slip? A probability, not a paragraph. PM stands for Professional. Yes, we get asked.">
 <style>
-  .l { opacity: 0; animation: cycle 12.8s linear infinite; }
+  .l { opacity: 0; animation: cycle 12.8s linear infinite; } .l0 { animation-delay: 0.00s } .l1 { animation-delay: 3.20s } .l2 { animation-delay: 6.40s } .l3 { animation-delay: 9.60s }
   @keyframes cycle { 0% { opacity: 0 } 3% { opacity: 1 } 22% { opacity: 1 } 25% { opacity: 0 } 100% { opacity: 0 } }
   .c { animation: blink 1.1s steps(2, start) infinite; } @keyframes blink { to { visibility: hidden } }
 </style>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-<text class="l" style="animation-delay:0.00s" x="380" y="29" text-anchor="middle" font-size="19" font-weight="600" fill="#6e40c9">1166 agent skills, one markdown file each.</text>
-<text class="l" style="animation-delay:3.20s" x="380" y="29" text-anchor="middle" font-size="19" font-weight="600" fill="#6e40c9">Decode the lease before you sign it.</text>
-<text class="l" style="animation-delay:6.40s" x="380" y="29" text-anchor="middle" font-size="19" font-weight="600" fill="#6e40c9">Ship or slip? A probability, not a paragraph.</text>
-<text class="l" style="animation-delay:9.60s" x="380" y="29" text-anchor="middle" font-size="19" font-weight="600" fill="#6e40c9">PM stands for Professional. Yes, we get asked.</text>
+<text class="l l0" x="380" y="29" text-anchor="middle" font-size="19" font-weight="600" fill="#6e40c9">1166 agent skills, one markdown file each.</text>
+<text class="l l1" x="380" y="29" text-anchor="middle" font-size="19" font-weight="600" fill="#6e40c9">Decode the lease before you sign it.</text>
+<text class="l l2" x="380" y="29" text-anchor="middle" font-size="19" font-weight="600" fill="#6e40c9">Ship or slip? A probability, not a paragraph.</text>
+<text class="l l3" x="380" y="29" text-anchor="middle" font-size="19" font-weight="600" fill="#6e40c9">PM stands for Professional. Yes, we get asked.</text>
 <text class="c" x="752" y="40" text-anchor="end" font-size="10" fill="#57606a">▌</text>
 </g></svg>
