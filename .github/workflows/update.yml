@@ -21,16 +21,20 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Build the card
-        run: node scripts/build-card.mjs
+      - name: Build the card and the case study
+        run: node scripts/build-card.mjs && node scripts/build-cards.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional: a fine-grained PAT with read access to pm-claude-skills (Administration:
+          # read-only unlocks the traffic API for the funnel card). Without it the funnel keeps
+          # the last snapshot and says so.
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add card-dark.svg card-light.svg repo-*.svg tagline-*.svg
-          git diff --cached --quiet && echo "card unchanged" || (git commit -m "card: daily refresh" && git push)
+          git add card-dark.svg card-light.svg repo-*.svg tagline-*.svg cs-*.svg data/history.json
+          git diff --cached --quiet && echo "nothing changed" || (git commit -m "cards: daily refresh" && git push)
 
   snake:
     runs-on: ubuntu-latest

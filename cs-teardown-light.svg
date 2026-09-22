@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-label="Mohit vs. a generic AI assistant">
+<rect x="0.5" y="0.5" width="759" height="319" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#57606a">COMPETITIVE TEARDOWN · ONE COLUMN IS A PERSON</text>
+<text x="24" y="54" font-size="19" font-weight="700" fill="#8250df">Mohit vs. a generic AI assistant</text>
+<line x1="24" y1="66" x2="736" y2="66" stroke="#d8dee4"/>
+<text x="24" y="90" font-size="11" fill="#57606a" font-weight="700">Capability</text>
+<text x="430" y="90" font-size="11" fill="#1a7f37" font-weight="700">Mohit</text>
+<text x="590" y="90" font-size="11" fill="#9a6700" font-weight="700">Generic AI</text>
+<text x="24" y="112" font-size="13" fill="#24292f">Says "it depends"</text>
+<text x="430" y="112" font-size="13" fill="#cf222e" font-weight="700">✗</text>
+<text x="590" y="112" font-size="13" fill="#1a7f37">✓</text>
+<text x="24" y="137" font-size="13" fill="#24292f">Publishes negative findings</text>
+<text x="430" y="137" font-size="13" fill="#1a7f37" font-weight="700">✓</text>
+<text x="590" y="137" font-size="13" fill="#57606a">✗</text>
+<text x="24" y="162" font-size="13" fill="#24292f">Knows what a security deposit is</text>
+<text x="430" y="162" font-size="13" fill="#1a7f37" font-weight="700">✓</text>
+<text x="590" y="162" font-size="13" fill="#57606a">sort of</text>
+<text x="24" y="187" font-size="13" fill="#24292f">Has a keyword baseline to beat</text>
+<text x="430" y="187" font-size="13" fill="#1a7f37" font-weight="700">✓</text>
+<text x="590" y="187" font-size="13" fill="#57606a">what?</text>
+<text x="24" y="212" font-size="13" fill="#24292f">Eval score, judged blind</text>
+<text x="430" y="212" font-size="13" fill="#1a7f37" font-weight="700">4.41 / 5</text>
+<text x="590" y="212" font-size="13" fill="#57606a">vibes</text>
+<text x="24" y="237" font-size="13" fill="#24292f">Flatters you without evidence</text>
+<text x="430" y="237" font-size="13" fill="#1a7f37" font-weight="700">measured</text>
+<text x="590" y="237" font-size="13" fill="#57606a">great question!</text>
+<text x="24" y="262" font-size="13" fill="#24292f">Routes to the right skill</text>
+<text x="430" y="262" font-size="13" fill="#1a7f37" font-weight="700">62.4% top-1</text>
+<text x="590" y="262" font-size="13" fill="#57606a">50.9% (keyword)</text>
+<text x="24" y="287" font-size="13" fill="#24292f">Admits when it is not Jev</text>
+<text x="430" y="287" font-size="13" fill="#1a7f37" font-weight="700">✓</text>
+<text x="590" y="287" font-size="13" fill="#57606a">n/a</text>
+<text x="736" y="306" text-anchor="end" font-size="11" fill="#57606a">evidence rows update from evals/ and skillbench/</text>
+</g></svg>

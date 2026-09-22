@@ -66,6 +66,80 @@ The rule for everything I ship: **it has to be measured, or it has to say it isn
 Firmware for the Xteink X4/X3 e-readers (ESP32-C3), because a $40 e-ink device deserves better software: <a href="https://github.com/mohitagw15856/Inkcards">Inkcards</a> (spaced-repetition flashcards, Anki import), <a href="https://github.com/mohitagw15856/PocketWiki">PocketWiki</a> (offline Wikipedia/Kiwix reader) and <a href="https://github.com/mohitagw15856/Inkkit">Inkkit</a> (the shared hardware layer, host-testable).
 </details>
 
+## 📁 The case study
+
+*A product manager's profile should read like a product. So here is the product, documented the way I'd document anyone else's: a PRD, a roadmap, a changelog, a funnel, a status page, a retro, a teardown. Every number is live; every card rebuilds itself each morning.*
+
+### 1 · The PRD
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-prd-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-prd-light.svg?v=1">
+  <img alt="PRD for Mohit the product: problem, users, solution, non-goals, open question, and five live success metrics" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-prd-dark.svg?v=1" width="100%">
+</picture>
+
+### 2 · The roadmap
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-light.svg?v=1">
+  <img alt="Roadmap: Now, Next and Later pulled from ROADMAP.md, and a Never column that is entirely hand-written" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-roadmap-dark.svg?v=1" width="100%">
+</picture>
+
+### 3 · The changelog
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-timeline-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-timeline-light.svg?v=1">
+  <img alt="Release timeline of pm-claude-skills, semantic versioning applied to a person" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-timeline-dark.svg?v=1" width="100%">
+</picture>
+
+### 4 · The funnel
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-funnel-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-funnel-light.svg?v=1">
+  <img alt="Acquisition funnel: repo views, unique visitors, clones, npm installs and free runs, with conversion between steps" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-funnel-dark.svg?v=1" width="100%">
+</picture>
+
+### 5 · Onboarding
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-onboarding-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-onboarding-light.svg?v=1">
+  <img alt="Three-step onboarding flow with live conversion numbers: try in the browser, install with one command, star it" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-onboarding-dark.svg?v=1" width="100%">
+</picture>
+
+### 6 · Status
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-status-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-status-light.svg?v=1">
+  <img alt="Status page: playground, MCP worker, router, npm, PyPI and the catalogue site, probed daily with 30-day uptime bars" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-status-dark.svg?v=1" width="100%">
+</picture>
+
+### 7 · The retro
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-retro-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-retro-light.svg?v=1">
+  <img alt="Quarterly retrospective: what went well, what did not, and actions, filled from real numbers" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-retro-dark.svg?v=1" width="100%">
+</picture>
+
+### 8 · The competitive teardown
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-teardown-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-teardown-light.svg?v=1">
+  <img alt="Feature matrix: Mohit versus a generic AI assistant, with evidence rows from the evals and benchmarks" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-teardown-dark.svg?v=1" width="100%">
+</picture>
+
+### 9 · Today's launch
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-launch-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-launch-light.svg?v=1">
+  <img alt="Launch post for the skill of the day, regenerated every morning" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-launch-dark.svg?v=1" width="100%">
+</picture>
+
+### 10 · How to reach me, RICE-prioritised
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-rice-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-rice-light.svg?v=1">
+  <img alt="RICE table ranking contact channels: issues, email, sponsoring, LinkedIn, carrier pigeon" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-rice-dark.svg?v=1" width="100%">
+</picture>
+
 ## 🐍 This year, as eaten by a snake
 
 <picture>
@@ -94,4 +168,4 @@ Firmware for the Xteink X4/X3 e-readers (ESP32-C3), because a $40 e-ink device d
   <a href="mailto:mohit15856@gmail.com">Email</a>
 </p>
 
-<p align="center"><sub>The card at the top rebuilds itself every morning from a GitHub Action (<a href="scripts/build-card.mjs">the script</a>, 100 lines, no dependencies). Steal it.</sub></p>
+<p align="center"><sub>Every card on this page rebuilds itself each morning from a GitHub Action (<a href="scripts/build-card.mjs">the profile card</a>, <a href="scripts/build-cards.mjs">the case study</a>; no dependencies). Steal them.</sub></p>

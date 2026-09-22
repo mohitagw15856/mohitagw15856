@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="262" viewBox="0 0 760 262" role="img" aria-label="Introducing Notes Humanizer">
+<rect x="0.5" y="0.5" width="759" height="261" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#57606a">LAUNCH POST · REGENERATED EVERY MORNING · 2026-09-22</text>
+<text x="24" y="54" font-size="19" font-weight="700" fill="#8250df">Introducing Notes Humanizer</text>
+<line x1="24" y1="66" x2="736" y2="66" stroke="#d8dee4"/>
+<text x="24" y="92" font-size="14" fill="#24292f">Strips AI writing patterns from text and rewrites it to sound genuinely human —</text>
+<text x="24" y="112" font-size="14" fill="#24292f">removing the statistical defaults, then adding earned voice calibrated to genre</text>
+<text x="24" y="132" font-size="14" fill="#24292f">(opinion pieces get a person's voice; docs and summaries stay neutral) without ever</text>
+<text x="24" y="158" font-size="11" fill="#57606a">WHO IT'S FOR</text>
+<text x="24" y="176" font-size="13" fill="#24292f">anyone who would say: a draft reads as AI-generated, over-polished, or rhythmically</text>
+<text x="24" y="194" font-size="13" fill="#24292f">uniform — including blog posts, emails, LinkedIn posts, or any prose that needs to</text>
+<text x="24" y="218" font-size="11" fill="#57606a">INSTALL</text>
+<rect x="24" y="223" width="712" height="28" rx="6" fill="#f6f8fa" stroke="#d8dee4"/>
+<text x="36" y="242" font-size="13" fill="#1a7f37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ npx pm-claude-skills add notes-humanizer</text>
+<text x="736" y="248" text-anchor="end" font-size="11" fill="#57606a">one of the library's skills, launched again like it's new</text>
+</g></svg>

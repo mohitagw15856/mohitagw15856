@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" role="img" aria-label="Now / Next / Later / Never">
+<rect x="0.5" y="0.5" width="759" height="329" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#57606a">ROADMAP · FROM ROADMAP.MD, EXCEPT THE LAST COLUMN</text>
+<text x="24" y="54" font-size="19" font-weight="700" fill="#8250df">Now / Next / Later / Never</text>
+<line x1="24" y1="66" x2="736" y2="66" stroke="#d8dee4"/>
+<text x="24" y="92" font-size="11" fill="#1a7f37" font-weight="700">NOW</text>
+<text x="24" y="112" font-size="12" fill="#24292f">Proving what's here.</text>
+<text x="24" y="128" font-size="12" fill="#24292f">1117 skills, 28 with</text>
+<text x="24" y="144" font-size="12" fill="#24292f">published eval scores.</text>
+<text x="24" y="166" font-size="12" fill="#24292f">Growing per-skill depth</text>
+<text x="24" y="182" font-size="12" fill="#24292f">— references/ and</text>
+<text x="24" y="198" font-size="12" fill="#24292f">templates/ for the</text>
+<text x="204" y="92" font-size="11" fill="#0969da" font-weight="700">NEXT</text>
+<text x="204" y="112" font-size="12" fill="#24292f">Expanding</text>
+<text x="204" y="128" font-size="12" fill="#24292f">Production-Ready</text>
+<text x="204" y="144" font-size="12" fill="#24292f">coverage — 50 of 1117</text>
+<text x="204" y="166" font-size="12" fill="#24292f">Consolidation. The</text>
+<text x="204" y="182" font-size="12" fill="#24292f">duplicate detector gates</text>
+<text x="204" y="198" font-size="12" fill="#24292f">new</text>
+<text x="204" y="220" font-size="12" fill="#24292f">More export/install</text>
+<text x="204" y="236" font-size="12" fill="#24292f">targets as the SKILL.md</text>
+<text x="204" y="252" font-size="12" fill="#24292f">standard spreads.</text>
+<text x="204" y="274" font-size="12" fill="#24292f">A public contributor</text>
+<text x="204" y="290" font-size="12" fill="#24292f">leaderboard — the Hall</text>
+<text x="204" y="306" font-size="12" fill="#24292f">of Seasons</text>
+<text x="384" y="92" font-size="11" fill="#9a6700" font-weight="700">LATER</text>
+<text x="384" y="112" font-size="12" fill="#24292f">Internationalised skill</text>
+<text x="384" y="128" font-size="12" fill="#24292f">descriptions. Currently</text>
+<text x="384" y="144" font-size="12" fill="#24292f">a stub: 12 Spanish, 11</text>
+<text x="384" y="166" font-size="12" fill="#24292f">Deeper arenas for the</text>
+<text x="384" y="182" font-size="12" fill="#24292f">Season beyond the gym.</text>
+<text x="564" y="92" font-size="11" fill="#cf222e" font-weight="700">NEVER</text>
+<text x="564" y="112" font-size="12" fill="#24292f">a Discord</text>
+<text x="564" y="134" font-size="12" fill="#24292f">a token</text>
+<text x="564" y="156" font-size="12" fill="#24292f">a rebrand to "PM Skills</text>
+<text x="564" y="172" font-size="12" fill="#24292f">AI"</text>
+<text x="564" y="194" font-size="12" fill="#24292f">a skill that says "it</text>
+<text x="564" y="210" font-size="12" fill="#24292f">depends"</text>
+<text x="736" y="316" text-anchor="end" font-size="11" fill="#57606a">never is load-bearing</text>
+</g></svg>

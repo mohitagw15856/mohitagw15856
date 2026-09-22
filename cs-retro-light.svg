@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="What went well / what didn't / actions">
+<rect x="0.5" y="0.5" width="759" height="299" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+<g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#57606a">RETROSPECTIVE · QUARTER STARTING 2026-07-01</text>
+<text x="24" y="54" font-size="19" font-weight="700" fill="#8250df">What went well / what didn't / actions</text>
+<line x1="24" y1="66" x2="736" y2="66" stroke="#d8dee4"/>
+<text x="24" y="92" font-size="11" fill="#1a7f37" font-weight="700">WENT WELL</text>
+<text x="24" y="112" font-size="13" fill="#24292f">• 31 issues closed this quarter</text>
+<text x="24" y="128" font-size="13" fill="#24292f">• +0 stars since 2026-09-22</text>
+<text x="24" y="144" font-size="13" fill="#24292f">• eval score 4.41 / 5, in the open</text>
+<text x="24" y="160" font-size="13" fill="#24292f">• every commit still gated</text>
+<text x="264" y="92" font-size="11" fill="#cf222e" font-weight="700">DIDN'T</text>
+<text x="264" y="112" font-size="13" fill="#24292f">• 9 issues still open (6 waiting for</text>
+<text x="264" y="128" font-size="13" fill="#24292f">  a profession to adopt them)</text>
+<text x="264" y="144" font-size="13" fill="#24292f">• the drift check will catch a stale</text>
+<text x="264" y="160" font-size="13" fill="#24292f">  number; it always does</text>
+<text x="264" y="176" font-size="13" fill="#24292f">• TypeSafe signups closed the week</text>
+<text x="264" y="192" font-size="13" fill="#24292f">  the decision layer shipped</text>
+<text x="504" y="92" font-size="11" fill="#0969da" font-weight="700">ACTIONS</text>
+<text x="504" y="112" font-size="13" fill="#24292f">• keep the keyword floor visible</text>
+<text x="504" y="128" font-size="13" fill="#24292f">• recruit three expert reviewers</text>
+<text x="504" y="144" font-size="13" fill="#24292f">• say "PM stands for Professional"</text>
+<text x="504" y="160" font-size="13" fill="#24292f">  once more</text>
+<text x="736" y="286" text-anchor="end" font-size="11" fill="#57606a">deltas vs 2026-09-22</text>
+</g></svg>
