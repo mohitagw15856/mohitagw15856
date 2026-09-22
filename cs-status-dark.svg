@@ -6,32 +6,32 @@
 <line x1="24" y1="66" x2="736" y2="66" stroke="#21262d"/>
 <circle cx="32" cy="88" r="5" fill="#3fb950"/>
 <text x="48" y="92" font-size="13" fill="#c9d1d9">Playground</text>
-<text x="230" y="92" font-size="11" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">140 ms</text>
+<text x="230" y="92" font-size="11" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">26 ms</text>
 <rect x="300" y="80" width="10" height="14" rx="2" fill="#3fb950"/>
 <text x="736" y="92" font-size="12" fill="#8b949e" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">100%</text>
 <circle cx="32" cy="122" r="5" fill="#3fb950"/>
 <text x="48" y="126" font-size="13" fill="#c9d1d9">MCP worker</text>
-<text x="230" y="126" font-size="11" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">9 ms</text>
+<text x="230" y="126" font-size="11" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">14 ms</text>
 <rect x="300" y="114" width="10" height="14" rx="2" fill="#3fb950"/>
 <text x="736" y="126" font-size="12" fill="#8b949e" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">100%</text>
 <circle cx="32" cy="156" r="5" fill="#3fb950"/>
 <text x="48" y="160" font-size="13" fill="#c9d1d9">/route</text>
-<text x="230" y="160" font-size="11" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">36 ms</text>
+<text x="230" y="160" font-size="11" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">55 ms</text>
 <rect x="300" y="148" width="10" height="14" rx="2" fill="#3fb950"/>
 <text x="736" y="160" font-size="12" fill="#8b949e" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">100%</text>
 <circle cx="32" cy="190" r="5" fill="#3fb950"/>
 <text x="48" y="194" font-size="13" fill="#c9d1d9">npm package</text>
-<text x="230" y="194" font-size="11" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">56 ms</text>
+<text x="230" y="194" font-size="11" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">129 ms</text>
 <rect x="300" y="182" width="10" height="14" rx="2" fill="#3fb950"/>
 <text x="736" y="194" font-size="12" fill="#8b949e" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">100%</text>
 <circle cx="32" cy="224" r="5" fill="#3fb950"/>
 <text x="48" y="228" font-size="13" fill="#c9d1d9">PyPI package</text>
-<text x="230" y="228" font-size="11" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">60 ms</text>
+<text x="230" y="228" font-size="11" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">22 ms</text>
 <rect x="300" y="216" width="10" height="14" rx="2" fill="#3fb950"/>
 <text x="736" y="228" font-size="12" fill="#8b949e" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">100%</text>
 <circle cx="32" cy="258" r="5" fill="#3fb950"/>
 <text x="48" y="262" font-size="13" fill="#c9d1d9">Catalogue site</text>
-<text x="230" y="262" font-size="11" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">228 ms</text>
+<text x="230" y="262" font-size="11" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">333 ms</text>
 <rect x="300" y="250" width="10" height="14" rx="2" fill="#3fb950"/>
 <text x="736" y="262" font-size="12" fill="#8b949e" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">100%</text>
 <text x="736" y="316" text-anchor="end" font-size="11" fill="#8b949e">last 30 days · 1 day(s) of history</text>
