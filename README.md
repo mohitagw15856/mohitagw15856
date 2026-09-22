@@ -7,8 +7,9 @@
 <p align="center">
   <a href="https://github.com/mohitagw15856/pm-claude-skills">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=900&color=D2A8FF&center=true&vCenter=true&width=760&lines=1166+agent+skills%2C+one+markdown+file+each.;Decode+the+lease+before+you+sign+it.;Ship+or+slip%3F+A+probability%2C+not+a+paragraph.;PM+stands+for+Professional.+Yes%2C+we+get+asked.">
-      <img alt="1166 agent skills, one markdown file each. Decode the lease before you sign it. Ship or slip? A probability, not a paragraph. PM stands for Professional." src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2600&pause=900&color=6E40C9&center=true&vCenter=true&width=760&lines=1166+agent+skills%2C+one+markdown+file+each.;Decode+the+lease+before+you+sign+it.;Ship+or+slip%3F+A+probability%2C+not+a+paragraph.;PM+stands+for+Professional.+Yes%2C+we+get+asked.">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-light.svg">
+      <img alt="1166 agent skills, one markdown file each. Decode the lease before you sign it. Ship or slip? A probability, not a paragraph. PM stands for Professional." src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/tagline-dark.svg" width="760">
     </picture>
   </a>
 </p>

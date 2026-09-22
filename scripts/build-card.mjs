@@ -137,3 +137,24 @@ ${lines}
 }
 for (const [name, blurb, lang] of FEATURED) { writeFileSync(`repo-${name}-dark.svg`, repoCard(name, blurb, 'dark', lang)); writeFileSync(`repo-${name}-light.svg`, repoCard(name, blurb, 'light', lang)); }
 console.log(`card + ${FEATURED.length} repo cards (dark/light) — stars ${stars}, repos ${u.repositories?.totalCount}, skills ${skills.count}, today ${today.name || '-'}`);
+
+// ── Tagline: a self-hosted typing animation (no third-party image service) ──
+const LINES = ['1166 agent skills, one markdown file each.', 'Decode the lease before you sign it.', 'Ship or slip? A probability, not a paragraph.', 'PM stands for Professional. Yes, we get asked.'];
+function tagline(theme) {
+  const T = theme === 'dark' ? { fg: '#d2a8ff', dim: '#8b949e' } : { fg: '#6e40c9', dim: '#57606a' };
+  const W = 760, H = 44, per = 3.2, total = per * LINES.length;
+  const items = LINES.map((l, i) => {
+    const begin = (i * per).toFixed(2);
+    return `<text x="${W / 2}" y="29" text-anchor="middle" font-size="19" font-weight="600" fill="${T.fg}" opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.85;1" dur="${per}s" begin="${begin}s;${begin}s+${total}s" repeatCount="indefinite" calcMode="linear"/>
+      <animate attributeName="opacity" values="0" dur="${total}s" begin="${(i * per + per).toFixed(2)}s" repeatCount="indefinite"/>${esc(l)}</text>`;
+  }).join('\n');
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(LINES.join(' '))}">
+<g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+${items}
+<text x="${W - 8}" y="40" text-anchor="end" font-size="10" fill="${T.dim}">▌</text>
+</g></svg>
+`;
+}
+writeFileSync('tagline-dark.svg', tagline('dark'));
+writeFileSync('tagline-light.svg', tagline('light'));
