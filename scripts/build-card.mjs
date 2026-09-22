@@ -143,16 +143,16 @@ const LINES = ['1166 agent skills, one markdown file each.', 'Decode the lease b
 function tagline(theme) {
   const T = theme === 'dark' ? { fg: '#d2a8ff', dim: '#8b949e' } : { fg: '#6e40c9', dim: '#57606a' };
   const W = 760, H = 44, per = 3.2, total = per * LINES.length;
-  const items = LINES.map((l, i) => {
-    const begin = (i * per).toFixed(2);
-    return `<text x="${W / 2}" y="29" text-anchor="middle" font-size="19" font-weight="600" fill="${T.fg}" opacity="0">
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.85;1" dur="${per}s" begin="${begin}s;${begin}s+${total}s" repeatCount="indefinite" calcMode="linear"/>
-      <animate attributeName="opacity" values="0" dur="${total}s" begin="${(i * per + per).toFixed(2)}s" repeatCount="indefinite"/>${esc(l)}</text>`;
-  }).join('\n');
+  const items = LINES.map((l, i) => `<text class="l" style="animation-delay:${(i * per).toFixed(2)}s" x="${W / 2}" y="29" text-anchor="middle" font-size="19" font-weight="600" fill="${T.fg}">${esc(l)}</text>`).join('\n');
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(LINES.join(' '))}">
+<style>
+  .l { opacity: 0; animation: cycle ${total}s linear infinite; }
+  @keyframes cycle { 0% { opacity: 0 } 3% { opacity: 1 } 22% { opacity: 1 } 25% { opacity: 0 } 100% { opacity: 0 } }
+  .c { animation: blink 1.1s steps(2, start) infinite; } @keyframes blink { to { visibility: hidden } }
+</style>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
 ${items}
-<text x="${W - 8}" y="40" text-anchor="end" font-size="10" fill="${T.dim}">▌</text>
+<text class="c" x="${W - 8}" y="40" text-anchor="end" font-size="10" fill="${T.dim}">▌</text>
 </g></svg>
 `;
 }
