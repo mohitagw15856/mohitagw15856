@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '22'
       - name: Build the card and the case study
-        run: node scripts/build-card.mjs && node scripts/build-cards.mjs
+        run: node scripts/build-card.mjs && node scripts/build-cards.mjs && node scripts/build-visuals.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Optional: a fine-grained PAT with read access to pm-claude-skills (Administration:
@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add card-dark.svg card-light.svg repo-*.svg tagline-*.svg cs-*.svg data/history.json
+          git add card-dark.svg card-light.svg repo-*.svg tagline-*.svg cs-*.svg vis-*.svg social-card-*.svg data/history.json
           git diff --cached --quiet && echo "nothing changed" || (git commit -m "cards: daily refresh" && git push)
 
   snake:

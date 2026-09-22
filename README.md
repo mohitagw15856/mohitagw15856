@@ -21,6 +21,18 @@
   <a href="https://github.com/sponsors/mohitagw15856"><img src="https://img.shields.io/badge/sponsor-%E2%9D%A4%EF%B8%8F-ff69b4?style=for-the-badge" alt="Sponsor"></a>
 </p>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-cinemagraph-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-cinemagraph-light.svg?v=1">
+  <img alt="Eight-second loop: a prompt is typed, the router picks security-deposit-recovery with probability 0.92, and the artifact appears" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-cinemagraph-dark.svg?v=1" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-galaxy-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-galaxy-light.svg?v=1">
+  <img alt="Galaxy minimap: every skill as one dot clustered by bundle and coloured by risk tier; today's skill pulses" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-galaxy-dark.svg?v=1" width="100%">
+</picture>
+
 ## 👋 Hi, I'm Mohit
 
 I was a product manager who got tired of AI giving me a very confident intern's answer. So I started writing down what the senior colleague would say — one markdown file per task — and it became **[PM Skills](https://github.com/mohitagw15856/pm-claude-skills)**: 1166 agent skills for Claude, ChatGPT, Gemini, Cursor and Codex, in Anthropic's official plugin directory, MIT, free forever.
@@ -140,6 +152,47 @@ Firmware for the Xteink X4/X3 e-readers (ESP32-C3), because a $40 e-ink device d
   <img alt="RICE table ranking contact channels: issues, email, sponsoring, LinkedIn, carrier pigeon" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/cs-rice-dark.svg?v=1" width="100%">
 </picture>
 
+## 📊 More pictures than a pitch deck
+
+<table>
+<tr>
+<td width="50%" valign="top"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-tree-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-tree-light.svg?v=1">
+  <img alt="Skill tree: from product manager to the library, the decision layer, the standard, the design tooling and the e-ink side quest, each node dated" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-tree-dark.svg?v=1" width="100%">
+</picture></td>
+<td width="50%" valign="top"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-ring-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-ring-light.svg?v=1">
+  <img alt="Donut of the library by risk tier, with the count of high-stakes skills that have had an expert review" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-ring-dark.svg?v=1" width="100%">
+</picture></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-medals-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-medals-light.svg?v=1">
+  <img alt="Medal rack: first release, first external contributor, 1,000 stars, 100 releases, 100 issues closed, 1,000 skills, first expert review, decision layer live" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-medals-dark.svg?v=1" width="100%">
+</picture></td>
+<td width="50%" valign="top"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-hours-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-hours-light.svg?v=1">
+  <img alt="Bar chart of the last 500 commits by UTC hour" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-hours-dark.svg?v=1" width="100%">
+</picture></td>
+</tr>
+</table>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-map-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-map-light.svg?v=1">
+  <img alt="Dotted world map of the countries the free runs and routes have come from, aggregate country codes only" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-map-dark.svg?v=1" width="100%">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-words-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-words-light.svg?v=1">
+  <img alt="Word cloud of the 60 most frequent words in the last 500 commit subjects" src="https://raw.githubusercontent.com/mohitagw15856/mohitagw15856/main/vis-words-dark.svg?v=1" width="100%">
+</picture>
+
 ## 🐍 This year, as eaten by a snake
 
 <picture>
@@ -168,4 +221,4 @@ Firmware for the Xteink X4/X3 e-readers (ESP32-C3), because a $40 e-ink device d
   <a href="mailto:mohit15856@gmail.com">Email</a>
 </p>
 
-<p align="center"><sub>Every card on this page rebuilds itself each morning from a GitHub Action (<a href="scripts/build-card.mjs">the profile card</a>, <a href="scripts/build-cards.mjs">the case study</a>; no dependencies). Steal them.</sub></p>
+<p align="center"><sub>Every picture on this page rebuilds itself each morning from a GitHub Action (<a href="scripts/build-card.mjs">the profile card</a>, <a href="scripts/build-cards.mjs">the case study</a>, <a href="scripts/build-visuals.mjs">the visuals</a>; no dependencies). Steal them. The <a href="social-card-dark.svg">social card</a> is the same numbers at 1200×630.</sub></p>

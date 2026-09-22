@@ -93,7 +93,7 @@ function bar(T, x, y, w, frac, color) { return `<rect x="${x}" y="${y}" width="$
 function write(name, build) { for (const theme of ['dark', 'light']) writeFileSync(`${name}-${theme}.svg`, build(theme)); }
 
 // ── 1. PRD ───────────────────────────────────────────────────────────────────
-write('cs-prd', (theme) => card(theme, { kicker: 'Product requirements · v79 · status: shipping', title: 'PRD: Mohit (the product)', height: 326, foot: `metrics live as of ${today}`, body: (T) => {
+write('cs-prd', (theme) => card(theme, { kicker: 'Product requirements · v79 · status: shipping', title: 'PRD: Mohit (the product)', height: 356, foot: `metrics live as of ${today}`, body: (T) => {
   const L = [];
   let y = 92;
   L.push(kv(T, 24, y, 'Problem', 'AI answers like a very confident intern. The moments that matter need the senior colleague\'s notes.')); y += 26;
@@ -102,8 +102,12 @@ write('cs-prd', (theme) => card(theme, { kicker: 'Product requirements · v79 ·
   L.push(kv(T, 24, y, 'Non-goals', 'a chatbot · a token · a newsletter about newsletters · "it depends"')); y += 26;
   L.push(kv(T, 24, y, 'Open question', 'will "PM stands for Professional" ever stick?')); y += 34;
   L.push(t(24, y, 'SUCCESS METRICS', { size: 11, fill: T.dim })); y += 22;
-  const M = [['skills shipped', fmt(snap.skills)], ['GitHub stars', fmt(stars)], ['npm installs / 30d', fmt(snap.npmMonth)], ['free runs served', fmt(freeRuns)], ['eval score', evalAvg ? `${evalAvg} / 5` : '—']];
-  M.forEach(([k, v], i) => { const x = 24 + i * 146; L.push(t(x, y, v, { size: 22, weight: 700, fill: T.accent })); L.push(t(x, y + 18, k, { size: 11, fill: T.dim })); });
+  const M = [['skills shipped', fmt(snap.skills), 'skills'], ['GitHub stars', fmt(stars), 'stars'], ['npm installs / 30d', fmt(snap.npmMonth), 'npmMonth'], ['free runs served', fmt(freeRuns), 'freeRuns'], ['eval score', evalAvg ? `${evalAvg} / 5` : '—', 'evalAvg']];
+  const keys = Object.keys(hist.days).sort().slice(-30);
+  M.forEach(([k, v, hk], i) => { const x = 24 + i * 146; L.push(t(x, y, v, { size: 22, weight: 700, fill: T.accent })); L.push(t(x, y + 18, k, { size: 11, fill: T.dim }));
+    const series = keys.map((d) => +hist.days[d][hk]).filter((n) => Number.isFinite(n));
+    if (series.length) { const lo = Math.min(...series), hi = Math.max(...series); const w = 120, h = 16; const pts = series.map((n, j) => `${(x + (series.length > 1 ? j / (series.length - 1) : 0.5) * w).toFixed(1)},${(y + 40 - (hi > lo ? (n - lo) / (hi - lo) : 0.5) * h).toFixed(1)}`).join(' ');
+      L.push(`<polyline points="${pts}" fill="none" stroke="${T.good}" stroke-width="1.5" stroke-linejoin="round"/>`); const [lx, ly] = pts.split(' ').pop().split(','); L.push(`<circle cx="${lx}" cy="${ly}" r="2.2" fill="${T.good}"/>`); L.push(t(x, y + 56, series.length > 1 ? `${series.length}-day trend` : 'trend starts tomorrow', { size: 9, fill: T.dim })); } });
   return L.join('\n');
 } }));
 
