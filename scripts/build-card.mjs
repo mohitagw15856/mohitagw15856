@@ -147,7 +147,7 @@ function tagline(theme) {
   const delays = LINES.map((_, i) => `.l${i} { animation-delay: ${(i * per).toFixed(2)}s }`).join(' ');
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(LINES.join(' '))}">
 <style>
-  .l { opacity: 0; animation: cycle ${total}s linear infinite both; } .l0 { opacity: 1; } ${delays}
+  .l { opacity: 0; animation: cycle ${total}s linear infinite; } .l0 { opacity: 1; } ${delays}
   @keyframes cycle { 0% { opacity: 0 } 3% { opacity: 1 } 22% { opacity: 1 } 25% { opacity: 0 } 100% { opacity: 0 } }
   .c { animation: blink 1.1s steps(2, start) infinite; } @keyframes blink { to { visibility: hidden } }
 </style>

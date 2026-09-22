@@ -5,8 +5,8 @@
 <text x="24" y="54" font-size="19" font-weight="700" fill="#8250df">A prompt → a typed decision → an artifact</text>
 <line x1="24" y1="66" x2="736" y2="66" stroke="#d8dee4"/>
 <style>
-  .ch,.rv{opacity:1;animation:show 9s linear infinite both}
-  .fill{transform:scaleX(1);transform-box:fill-box;transform-origin:left center;animation:grow 9s linear infinite both}
+  .ch,.rv{opacity:1;animation:show 9s linear infinite}
+  .fill{transform:scaleX(1);transform-box:fill-box;transform-origin:left center;animation:grow 9s linear infinite}
   @keyframes show{0%{opacity:0}1%{opacity:1}92%{opacity:1}100%{opacity:0}}
   @keyframes grow{0%{transform:scaleX(0)}8%{transform:scaleX(1)}92%{transform:scaleX(1)}100%{transform:scaleX(0)}}
   .cur{animation:blink 1s steps(2,start) infinite}@keyframes blink{to{visibility:hidden}}
