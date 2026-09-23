@@ -7,17 +7,17 @@
 <rect x="24" y="82" width="222" height="120" rx="10" fill="#f6f8fa" stroke="#d8dee4"/>
 <text x="38" y="108" font-size="12" fill="#24292f" font-weight="700">1 · Try a skill in the browser</text>
 <text x="38" y="128" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">no install, no signup</text>
-<text x="38" y="170" font-size="16" fill="#0969da" font-weight="700">126 free runs served</text>
+<text x="38" y="170" font-size="16" fill="#0969da" font-weight="700">127 free runs served</text>
 <text x="256" y="146" font-size="18" fill="#57606a">→</text>
 <rect x="264" y="82" width="222" height="120" rx="10" fill="#f6f8fa" stroke="#d8dee4"/>
 <text x="278" y="108" font-size="12" fill="#24292f" font-weight="700">2 · Install with one command</text>
 <text x="278" y="128" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">npx pm-claude-skills add</text>
-<text x="278" y="170" font-size="16" fill="#0969da" font-weight="700">8,925 installs this month</text>
+<text x="278" y="170" font-size="16" fill="#0969da" font-weight="700">9,662 installs this month</text>
 <text x="496" y="146" font-size="18" fill="#57606a">→</text>
 <rect x="504" y="82" width="222" height="120" rx="10" fill="#f6f8fa" stroke="#d8dee4"/>
 <text x="518" y="108" font-size="12" fill="#24292f" font-weight="700">3 · Star it if it saved you a mistake</text>
 <text x="518" y="128" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">this is how others find it</text>
-<text x="518" y="170" font-size="16" fill="#0969da" font-weight="700">1,419 stars so far</text>
+<text x="518" y="170" font-size="16" fill="#0969da" font-weight="700">1,424 stars so far</text>
 
 <text x="736" y="236" text-anchor="end" font-size="11" fill="#57606a">conversion numbers are live; the guilt is implied</text>
 </g></svg>
