@@ -287,7 +287,8 @@
 <circle cx="331.8" cy="172.0" r="1.6" fill="#0969da" opacity="0.85"/>
 <circle cx="352.7" cy="169.6" r="1.6" fill="#0969da" opacity="0.85"/>
 <circle cx="337.5" cy="174.3" r="1.6" fill="#0969da" opacity="0.85"/>
-<circle cx="339.7" cy="176.4" r="1.6" fill="#0969da" opacity="0.85"/>
+<circle cx="339.7" cy="176.4" r="5" fill="#8250df" opacity="1" class="pulse"/>
+<text x="348.7" y="180.4" font-size="11" fill="#8250df" font-weight="700">make-friends-as-an-adult</text>
 <circle cx="337.5" cy="159.0" r="1.6" fill="#0969da" opacity="0.85"/>
 <circle cx="340.1" cy="167.3" r="1.6" fill="#0969da" opacity="0.85"/>
 <circle cx="341.6" cy="158.4" r="1.6" fill="#0969da" opacity="0.85"/>
@@ -1159,8 +1160,7 @@
 <circle cx="82.0" cy="179.3" r="1.6" fill="#9a6700" opacity="0.85"/>
 <circle cx="79.3" cy="183.8" r="1.6" fill="#9a6700" opacity="0.85"/>
 <circle cx="610.9" cy="130.7" r="1.6" fill="#0969da" opacity="0.85"/>
-<circle cx="617.6" cy="128.1" r="5" fill="#8250df" opacity="1" class="pulse"/>
-<text x="626.6" y="132.1" font-size="11" fill="#8250df" font-weight="700">maintainer-triage</text>
+<circle cx="617.6" cy="128.1" r="1.6" fill="#0969da" opacity="0.85"/>
 <circle cx="622.1" cy="126.0" r="1.6" fill="#0969da" opacity="0.85"/>
 <circle cx="329.6" cy="288.3" r="1.6" fill="#0969da" opacity="0.85"/>
 <circle cx="330.5" cy="285.2" r="1.6" fill="#0969da" opacity="0.85"/>
