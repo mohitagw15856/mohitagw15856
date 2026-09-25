@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="Introducing Make Friends as an Adult">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="Introducing Make Me a">
 <rect x="0.5" y="0.5" width="759" height="299" rx="12" fill="#ffffff" stroke="#d0d7de"/>
 <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
-<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#57606a">LAUNCH POST · REGENERATED EVERY MORNING · 2026-09-24</text>
-<text x="24" y="54" font-size="19" font-weight="700" fill="#8250df">Introducing Make Friends as an Adult</text>
+<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#57606a">LAUNCH POST · REGENERATED EVERY MORNING · 2026-09-25</text>
+<text x="24" y="54" font-size="19" font-weight="700" fill="#8250df">Introducing Make Me a</text>
 <line x1="24" y1="66" x2="736" y2="66" stroke="#d8dee4"/>
-<text x="24" y="92" font-size="14" fill="#24292f">Build a real plan to make friends as an adult — where to meet people you'd actually</text>
-<text x="24" y="112" font-size="14" fill="#24292f">click with, how to turn acquaintances into friends, and past the awkwardness.</text>
+<text x="24" y="92" font-size="14" fill="#24292f">Turn a task you repeat every week into a reusable personal skill or prompt — so you</text>
+<text x="24" y="112" font-size="14" fill="#24292f">say 'do this' instead of re-explaining it every time.</text>
 <text x="24" y="138" font-size="11" fill="#57606a">WHO IT'S FOR</text>
-<text x="24" y="156" font-size="13" fill="#24292f">anyone who would say: asked how do I make friends as an adult, I'm lonely and want</text>
-<text x="24" y="174" font-size="13" fill="#24292f">more friends, help me build a social life, or I have no friends here</text>
+<text x="24" y="156" font-size="13" fill="#24292f">anyone who would say: asked help me make a skill for, turn this repetitive task into</text>
+<text x="24" y="174" font-size="13" fill="#24292f">a template, I do this every week, or create a reusable prompt for this</text>
 <text x="24" y="198" font-size="11" fill="#57606a">INSTALL</text>
 <rect x="24" y="203" width="712" height="28" rx="6" fill="#f6f8fa" stroke="#d8dee4"/>
-<text x="36" y="222" font-size="13" fill="#1a7f37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ npx pm-claude-skills add make-friends-as-an-adult</text>
+<text x="36" y="222" font-size="13" fill="#1a7f37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ npx pm-claude-skills add make-me-a-skill</text>
 <text x="736" y="286" text-anchor="end" font-size="11" fill="#57606a">one of the library's skills, launched again like it's new</text>
 </g></svg>

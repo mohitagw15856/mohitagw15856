@@ -211,7 +211,8 @@
 <circle cx="327.7" cy="179.5" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="331.9" cy="191.9" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="316.2" cy="192.2" r="1.6" fill="#58a6ff" opacity="0.85"/>
-<circle cx="332.4" cy="184.9" r="1.6" fill="#58a6ff" opacity="0.85"/>
+<circle cx="332.4" cy="184.9" r="5" fill="#d2a8ff" opacity="1" class="pulse"/>
+<text x="341.4" y="188.9" font-size="11" fill="#d2a8ff" font-weight="700">make-me-a-skill</text>
 <circle cx="321.3" cy="187.3" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="318.9" cy="187.3" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="331.5" cy="188.0" r="1.6" fill="#58a6ff" opacity="0.85"/>
@@ -287,8 +288,7 @@
 <circle cx="331.8" cy="172.0" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="352.7" cy="169.6" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="337.5" cy="174.3" r="1.6" fill="#58a6ff" opacity="0.85"/>
-<circle cx="339.7" cy="176.4" r="5" fill="#d2a8ff" opacity="1" class="pulse"/>
-<text x="348.7" y="180.4" font-size="11" fill="#d2a8ff" font-weight="700">make-friends-as-an-adult</text>
+<circle cx="339.7" cy="176.4" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="337.5" cy="159.0" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="340.1" cy="167.3" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="341.6" cy="158.4" r="1.6" fill="#58a6ff" opacity="0.85"/>

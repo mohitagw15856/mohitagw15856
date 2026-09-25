@@ -68,6 +68,29 @@
     "PyPI package": 1,
     "Catalogue site": 1
    }
+  },
+  "2026-09-25": {
+   "stars": 1430,
+   "followers": 43,
+   "openIssues": 9,
+   "closedQ": 31,
+   "views14": 7354,
+   "uniques14": 2323,
+   "clones14": 8938,
+   "cloners14": 1370,
+   "npmMonth": 9662,
+   "freeRuns": 128,
+   "skills": 1170,
+   "evalAvg": 4.41,
+   "trafficLive": false,
+   "status": {
+    "Playground": 1,
+    "MCP worker": 1,
+    "/route": 1,
+    "npm package": 1,
+    "PyPI package": 1,
+    "Catalogue site": 1
+   }
   }
  }
 }
