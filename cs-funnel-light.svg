@@ -6,21 +6,21 @@
 <line x1="24" y1="66" x2="736" y2="66" stroke="#d8dee4"/>
 <text x="24" y="92" font-size="12" fill="#57606a">views (14d)</text>
 <text x="736" y="92" font-size="13" fill="#24292f" font-weight="700" text-anchor="end">7,354</text>
-<rect x="24" y="100" width="712" height="8" rx="4" fill="#d8dee4"/><rect x="24" y="100" width="542" height="8" rx="4" fill="#0969da"/>
+<rect x="24" y="100" width="712" height="8" rx="4" fill="#d8dee4"/><rect x="24" y="100" width="502" height="8" rx="4" fill="#0969da"/>
 <text x="24" y="134" font-size="12" fill="#57606a">unique visitors</text>
 <text x="736" y="134" font-size="13" fill="#24292f" font-weight="700" text-anchor="end">2,323</text>
 <text x="640" y="134" font-size="10" fill="#57606a" text-anchor="end">32% of previous</text>
-<rect x="24" y="142" width="712" height="8" rx="4" fill="#d8dee4"/><rect x="24" y="142" width="171" height="8" rx="4" fill="#0969da"/>
+<rect x="24" y="142" width="712" height="8" rx="4" fill="#d8dee4"/><rect x="24" y="142" width="159" height="8" rx="4" fill="#0969da"/>
 <text x="24" y="176" font-size="12" fill="#57606a">clones (14d)</text>
 <text x="736" y="176" font-size="13" fill="#24292f" font-weight="700" text-anchor="end">8,938</text>
 <text x="640" y="176" font-size="10" fill="#57606a" text-anchor="end">385% of previous</text>
-<rect x="24" y="184" width="712" height="8" rx="4" fill="#d8dee4"/><rect x="24" y="184" width="659" height="8" rx="4" fill="#0969da"/>
+<rect x="24" y="184" width="712" height="8" rx="4" fill="#d8dee4"/><rect x="24" y="184" width="610" height="8" rx="4" fill="#0969da"/>
 <text x="24" y="218" font-size="12" fill="#57606a">npm installs (30d)</text>
-<text x="736" y="218" font-size="13" fill="#24292f" font-weight="700" text-anchor="end">9,662</text>
-<text x="640" y="218" font-size="10" fill="#57606a" text-anchor="end">108% of previous</text>
+<text x="736" y="218" font-size="13" fill="#24292f" font-weight="700" text-anchor="end">10,433</text>
+<text x="640" y="218" font-size="10" fill="#57606a" text-anchor="end">117% of previous</text>
 <rect x="24" y="226" width="712" height="8" rx="4" fill="#d8dee4"/><rect x="24" y="226" width="712" height="8" rx="4" fill="#0969da"/>
 <text x="24" y="260" font-size="12" fill="#57606a">free runs served</text>
-<text x="736" y="260" font-size="13" fill="#24292f" font-weight="700" text-anchor="end">128</text>
+<text x="736" y="260" font-size="13" fill="#24292f" font-weight="700" text-anchor="end">131</text>
 <text x="640" y="260" font-size="10" fill="#57606a" text-anchor="end">1% of previous</text>
 <rect x="24" y="268" width="712" height="8" rx="4" fill="#d8dee4"/><rect x="24" y="268" width="9" height="8" rx="4" fill="#1a7f37"/>
 <text x="736" y="322" text-anchor="end" font-size="11" fill="#57606a">traffic as of last snapshot · set PROFILE_TOKEN to refresh</text>

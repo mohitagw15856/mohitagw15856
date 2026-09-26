@@ -32,18 +32,18 @@
 </g>
 <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="14">
 <text x="420" y="74"><tspan class="key">OS</tspan><tspan class="dim">: </tspan><tspan class="val">macOS · Claude Code · too many tabs</tspan></text>
-<text x="420" y="96"><tspan class="key">Uptime</tspan><tspan class="dim">: </tspan><tspan class="val">3y 10m 0d on GitHub</tspan></text>
+<text x="420" y="96"><tspan class="key">Uptime</tspan><tspan class="dim">: </tspan><tspan class="val">3y 10m 1d on GitHub</tspan></text>
 <text x="420" y="118"><tspan class="key">Shell</tspan><tspan class="dim">: </tspan><tspan class="val">zsh, aliases nobody else can read</tspan></text>
 <text x="420" y="140"><tspan class="key">Kernel</tspan><tspan class="dim">: </tspan><tspan class="val">product manager → builder</tspan></text>
 <text x="420" y="172"><tspan class="key">Shipped</tspan><tspan class="dim">: </tspan><tspan class="val">1,170 agent skills · 133 bundles · MIT</tspan></text>
-<text x="420" y="194"><tspan class="key">Today</tspan><tspan class="dim">: </tspan><tspan class="val">make-me-a-skill (skill of the day)</tspan></text>
+<text x="420" y="194"><tspan class="key">Today</tspan><tspan class="dim">: </tspan><tspan class="val">manager-first-90-days (skill of the day)</tspan></text>
 <text x="420" y="216"><tspan class="key">Now</tspan><tspan class="dim">: </tspan><tspan class="val">a typed decision layer for agent skills</tspan></text>
 <text x="420" y="248"><tspan class="key">Repos</tspan><tspan class="dim">: </tspan><tspan class="val">62 public · 43 followers</tspan></text>
-<text x="420" y="270"><tspan class="key">Stars</tspan><tspan class="dim">: </tspan><tspan class="val">1,430 · forks 253</tspan></text>
-<text x="420" y="292"><tspan class="key">Commits</tspan><tspan class="dim">: </tspan><tspan class="val">1,188 this year · 1,786 contributions</tspan></text>
+<text x="420" y="270"><tspan class="key">Stars</tspan><tspan class="dim">: </tspan><tspan class="val">1,437 · forks 254</tspan></text>
+<text x="420" y="292"><tspan class="key">Commits</tspan><tspan class="dim">: </tspan><tspan class="val">1,188 this year · 1,788 contributions</tspan></text>
 <text x="420" y="314"><tspan class="key">Languages</tspan><tspan class="dim">: </tspan><tspan class="val">JavaScript · C++ · Python</tspan></text>
 <text x="420" y="346"><tspan class="key">Where</tspan><tspan class="dim">: </tspan><tspan class="val">github.com/mohitagw15856</tspan></text>
 </g>
 <text x="420" y="374" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14"><tspan class="dim">$ </tspan><tspan class="cursor">▌</tspan></text>
-<text x="976" y="456" text-anchor="end" class="hint" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">updated 2026-09-25 · rebuilt daily by a GitHub Action</text>
+<text x="976" y="456" text-anchor="end" class="hint" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">updated 2026-09-26 · rebuilt daily by a GitHub Action</text>
 </svg>

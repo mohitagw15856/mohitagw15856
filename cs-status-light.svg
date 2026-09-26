@@ -6,51 +6,57 @@
 <line x1="24" y1="66" x2="736" y2="66" stroke="#d8dee4"/>
 <circle cx="32" cy="88" r="5" fill="#1a7f37"/>
 <text x="48" y="92" font-size="13" fill="#24292f">Playground</text>
-<text x="230" y="92" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">60 ms</text>
+<text x="230" y="92" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">96 ms</text>
 <rect x="300" y="80" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="313" y="80" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="326" y="80" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="339" y="80" width="10" height="14" rx="2" fill="#1a7f37"/>
+<rect x="352" y="80" width="10" height="14" rx="2" fill="#1a7f37"/>
 <text x="736" y="92" font-size="12" fill="#57606a" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">100%</text>
 <circle cx="32" cy="122" r="5" fill="#1a7f37"/>
 <text x="48" y="126" font-size="13" fill="#24292f">MCP worker</text>
-<text x="230" y="126" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">20 ms</text>
+<text x="230" y="126" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">19 ms</text>
 <rect x="300" y="114" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="313" y="114" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="326" y="114" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="339" y="114" width="10" height="14" rx="2" fill="#1a7f37"/>
+<rect x="352" y="114" width="10" height="14" rx="2" fill="#1a7f37"/>
 <text x="736" y="126" font-size="12" fill="#57606a" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">100%</text>
 <circle cx="32" cy="156" r="5" fill="#1a7f37"/>
 <text x="48" y="160" font-size="13" fill="#24292f">/route</text>
-<text x="230" y="160" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">96 ms</text>
+<text x="230" y="160" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">50 ms</text>
 <rect x="300" y="148" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="313" y="148" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="326" y="148" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="339" y="148" width="10" height="14" rx="2" fill="#1a7f37"/>
+<rect x="352" y="148" width="10" height="14" rx="2" fill="#1a7f37"/>
 <text x="736" y="160" font-size="12" fill="#57606a" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">100%</text>
 <circle cx="32" cy="190" r="5" fill="#1a7f37"/>
 <text x="48" y="194" font-size="13" fill="#24292f">npm package</text>
-<text x="230" y="194" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">160 ms</text>
+<text x="230" y="194" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">95 ms</text>
 <rect x="300" y="182" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="313" y="182" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="326" y="182" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="339" y="182" width="10" height="14" rx="2" fill="#1a7f37"/>
+<rect x="352" y="182" width="10" height="14" rx="2" fill="#1a7f37"/>
 <text x="736" y="194" font-size="12" fill="#57606a" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">100%</text>
 <circle cx="32" cy="224" r="5" fill="#1a7f37"/>
 <text x="48" y="228" font-size="13" fill="#24292f">PyPI package</text>
-<text x="230" y="228" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">78 ms</text>
+<text x="230" y="228" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">72 ms</text>
 <rect x="300" y="216" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="313" y="216" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="326" y="216" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="339" y="216" width="10" height="14" rx="2" fill="#1a7f37"/>
+<rect x="352" y="216" width="10" height="14" rx="2" fill="#1a7f37"/>
 <text x="736" y="228" font-size="12" fill="#57606a" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">100%</text>
 <circle cx="32" cy="258" r="5" fill="#1a7f37"/>
 <text x="48" y="262" font-size="13" fill="#24292f">Catalogue site</text>
-<text x="230" y="262" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">274 ms</text>
+<text x="230" y="262" font-size="11" fill="#57606a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">238 ms</text>
 <rect x="300" y="250" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="313" y="250" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="326" y="250" width="10" height="14" rx="2" fill="#1a7f37"/>
 <rect x="339" y="250" width="10" height="14" rx="2" fill="#1a7f37"/>
+<rect x="352" y="250" width="10" height="14" rx="2" fill="#1a7f37"/>
 <text x="736" y="262" font-size="12" fill="#57606a" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">100%</text>
-<text x="736" y="316" text-anchor="end" font-size="11" fill="#57606a">last 30 days · 4 day(s) of history</text>
+<text x="736" y="316" text-anchor="end" font-size="11" fill="#57606a">last 30 days · 5 day(s) of history</text>
 </g></svg>

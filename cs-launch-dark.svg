@@ -1,16 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="Introducing Make Me a">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="Introducing Manager First 90 Days">
 <rect x="0.5" y="0.5" width="759" height="299" rx="12" fill="#0d1117" stroke="#30363d"/>
 <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
-<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#8b949e">LAUNCH POST · REGENERATED EVERY MORNING · 2026-09-25</text>
-<text x="24" y="54" font-size="19" font-weight="700" fill="#d2a8ff">Introducing Make Me a</text>
+<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#8b949e">LAUNCH POST · REGENERATED EVERY MORNING · 2026-09-26</text>
+<text x="24" y="54" font-size="19" font-weight="700" fill="#d2a8ff">Introducing Manager First 90 Days</text>
 <line x1="24" y1="66" x2="736" y2="66" stroke="#21262d"/>
-<text x="24" y="92" font-size="14" fill="#c9d1d9">Turn a task you repeat every week into a reusable personal skill or prompt — so you</text>
-<text x="24" y="112" font-size="14" fill="#c9d1d9">say 'do this' instead of re-explaining it every time.</text>
-<text x="24" y="138" font-size="11" fill="#8b949e">WHO IT'S FOR</text>
-<text x="24" y="156" font-size="13" fill="#c9d1d9">anyone who would say: asked help me make a skill for, turn this repetitive task into</text>
-<text x="24" y="174" font-size="13" fill="#c9d1d9">a template, I do this every week, or create a reusable prompt for this</text>
-<text x="24" y="198" font-size="11" fill="#8b949e">INSTALL</text>
-<rect x="24" y="203" width="712" height="28" rx="6" fill="#161b22" stroke="#21262d"/>
-<text x="36" y="222" font-size="13" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ npx pm-claude-skills add make-me-a-skill</text>
+<text x="24" y="92" font-size="14" fill="#c9d1d9">Plan a new manager's first 90 days — first-time or new-to-team — as</text>
+<text x="24" y="112" font-size="14" fill="#c9d1d9">listen/decide/move phases: the 1:1 listening tour with real questions, the</text>
+<text x="24" y="132" font-size="14" fill="#c9d1d9">early-judgment traps, the quick-wins filter, and the 30/60/90 artifacts.</text>
+<text x="24" y="158" font-size="11" fill="#8b949e">WHO IT'S FOR</text>
+<text x="24" y="176" font-size="13" fill="#c9d1d9">anyone who would say: asked I just became a manager what do I do, plan my first 90</text>
+<text x="24" y="194" font-size="13" fill="#c9d1d9">days as a manager, first-time manager advice, taking over an existing team, or…</text>
+<text x="24" y="218" font-size="11" fill="#8b949e">INSTALL</text>
+<rect x="24" y="223" width="712" height="28" rx="6" fill="#161b22" stroke="#21262d"/>
+<text x="36" y="242" font-size="13" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ npx pm-claude-skills add manager-first-90-days</text>
 <text x="736" y="286" text-anchor="end" font-size="11" fill="#8b949e">one of the library's skills, launched again like it's new</text>
 </g></svg>

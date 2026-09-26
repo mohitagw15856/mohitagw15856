@@ -6,8 +6,8 @@
 <rect x="84" y="170" width="240" height="8" rx="4" fill="url(#g)"/>
 <text x="80" y="240" font-size="30" fill="#24292f">1,170 professional agent skills your AI can read.</text>
 <text x="80" y="284" font-size="22" fill="#57606a">Plain markdown · Claude · ChatGPT · Gemini · Cursor · Codex · MIT</text>
-<text x="80" y="400" font-size="48" font-weight="700" fill="#8250df">1,170</text><text x="80" y="432" font-size="18" fill="#57606a">skills</text><text x="320" y="400" font-size="48" font-weight="700" fill="#8250df">1,397</text><text x="320" y="432" font-size="18" fill="#57606a">stars</text><text x="560" y="400" font-size="48" font-weight="700" fill="#8250df">134</text><text x="560" y="432" font-size="18" fill="#57606a">bundles</text><text x="800" y="400" font-size="48" font-weight="700" fill="#8250df">35</text><text x="800" y="432" font-size="18" fill="#57606a">professions</text>
+<text x="80" y="400" font-size="48" font-weight="700" fill="#8250df">1,170</text><text x="80" y="432" font-size="18" fill="#57606a">skills</text><text x="320" y="400" font-size="48" font-weight="700" fill="#8250df">1,403</text><text x="320" y="432" font-size="18" fill="#57606a">stars</text><text x="560" y="400" font-size="48" font-weight="700" fill="#8250df">134</text><text x="560" y="432" font-size="18" fill="#57606a">bundles</text><text x="800" y="400" font-size="48" font-weight="700" fill="#8250df">35</text><text x="800" y="432" font-size="18" fill="#57606a">professions</text>
 <rect x="80" y="490" width="620" height="54" rx="10" fill="#f6f8fa" stroke="#d8dee4"/>
 <text x="100" y="525" font-size="22" fill="#1a7f37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ npx pm-claude-skills add</text>
-<text x="1120" y="590" text-anchor="end" font-size="18" fill="#57606a">github.com/mohitagw15856/pm-claude-skills · 2026-09-25</text>
+<text x="1120" y="590" text-anchor="end" font-size="18" fill="#57606a">github.com/mohitagw15856/pm-claude-skills · 2026-09-26</text>
 </g></svg>

@@ -12,28 +12,28 @@
 <text x="24" y="230" font-size="11" fill="#8b949e">SUCCESS METRICS</text>
 <text x="24" y="252" font-size="22" fill="#58a6ff" font-weight="700">1,170</text>
 <text x="24" y="270" font-size="11" fill="#8b949e">skills shipped</text>
-<polyline points="24.0,292.0 64.0,276.0 104.0,276.0 144.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="24.0,292.0 54.0,276.0 84.0,276.0 114.0,276.0 144.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="144.0" cy="276.0" r="2.2" fill="#3fb950"/>
-<text x="24" y="308" font-size="9" fill="#8b949e">4-day trend</text>
-<text x="170" y="252" font-size="22" fill="#58a6ff" font-weight="700">1,430</text>
+<text x="24" y="308" font-size="9" fill="#8b949e">5-day trend</text>
+<text x="170" y="252" font-size="22" fill="#58a6ff" font-weight="700">1,437</text>
 <text x="170" y="270" font-size="11" fill="#8b949e">GitHub stars</text>
-<polyline points="170.0,292.0 210.0,284.7 250.0,277.5 290.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="170.0,292.0 200.0,287.6 230.0,283.1 260.0,282.2 290.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="290.0" cy="276.0" r="2.2" fill="#3fb950"/>
-<text x="170" y="308" font-size="9" fill="#8b949e">4-day trend</text>
-<text x="316" y="252" font-size="22" fill="#58a6ff" font-weight="700">9,662</text>
+<text x="170" y="308" font-size="9" fill="#8b949e">5-day trend</text>
+<text x="316" y="252" font-size="22" fill="#58a6ff" font-weight="700">10,433</text>
 <text x="316" y="270" font-size="11" fill="#8b949e">npm installs / 30d</text>
-<polyline points="316.0,292.0 356.0,276.0 396.0,276.0 436.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="316.0,292.0 346.0,284.2 376.0,284.2 406.0,284.2 436.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="436.0" cy="276.0" r="2.2" fill="#3fb950"/>
-<text x="316" y="308" font-size="9" fill="#8b949e">4-day trend</text>
-<text x="462" y="252" font-size="22" fill="#58a6ff" font-weight="700">128</text>
+<text x="316" y="308" font-size="9" fill="#8b949e">5-day trend</text>
+<text x="462" y="252" font-size="22" fill="#58a6ff" font-weight="700">131</text>
 <text x="462" y="270" font-size="11" fill="#8b949e">free runs served</text>
-<polyline points="462.0,292.0 502.0,284.0 542.0,276.0 582.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="462.0,292.0 492.0,288.8 522.0,285.6 552.0,285.6 582.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="582.0" cy="276.0" r="2.2" fill="#3fb950"/>
-<text x="462" y="308" font-size="9" fill="#8b949e">4-day trend</text>
+<text x="462" y="308" font-size="9" fill="#8b949e">5-day trend</text>
 <text x="608" y="252" font-size="22" fill="#58a6ff" font-weight="700">4.41 / 5</text>
 <text x="608" y="270" font-size="11" fill="#8b949e">eval score</text>
-<polyline points="608.0,284.0 648.0,284.0 688.0,284.0 728.0,284.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="608.0,284.0 638.0,284.0 668.0,284.0 698.0,284.0 728.0,284.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="728.0" cy="284.0" r="2.2" fill="#3fb950"/>
-<text x="608" y="308" font-size="9" fill="#8b949e">4-day trend</text>
-<text x="736" y="342" text-anchor="end" font-size="11" fill="#8b949e">metrics live as of 2026-09-25</text>
+<text x="608" y="308" font-size="9" fill="#8b949e">5-day trend</text>
+<text x="736" y="342" text-anchor="end" font-size="11" fill="#8b949e">metrics live as of 2026-09-26</text>
 </g></svg>
