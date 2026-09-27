@@ -480,7 +480,8 @@
 <circle cx="363.4" cy="228.9" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="365.1" cy="229.0" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="365.2" cy="231.1" r="1.6" fill="#58a6ff" opacity="0.85"/>
-<circle cx="380.6" cy="229.1" r="1.6" fill="#58a6ff" opacity="0.85"/>
+<circle cx="380.6" cy="229.1" r="5" fill="#d2a8ff" opacity="1" class="pulse"/>
+<text x="389.6" y="233.1" font-size="11" fill="#d2a8ff" font-weight="700">managing-up</text>
 <circle cx="378.3" cy="223.9" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="383.8" cy="226.4" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="372.1" cy="219.7" r="1.6" fill="#58a6ff" opacity="0.85"/>
@@ -718,8 +719,7 @@
 <circle cx="550.5" cy="203.0" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="226.8" cy="209.1" r="1.6" fill="#d29922" opacity="0.85"/>
 <circle cx="223.8" cy="209.6" r="1.6" fill="#d29922" opacity="0.85"/>
-<circle cx="215.7" cy="217.6" r="5" fill="#d2a8ff" opacity="1" class="pulse"/>
-<text x="224.7" y="221.6" font-size="11" fill="#d2a8ff" font-weight="700">manager-first-90-days</text>
+<circle cx="215.7" cy="217.6" r="1.6" fill="#d29922" opacity="0.85"/>
 <circle cx="224.4" cy="217.8" r="1.6" fill="#d29922" opacity="0.85"/>
 <circle cx="228.9" cy="216.4" r="1.6" fill="#d29922" opacity="0.85"/>
 <circle cx="217.0" cy="222.4" r="1.6" fill="#d29922" opacity="0.85"/>
