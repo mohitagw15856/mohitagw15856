@@ -5,34 +5,43 @@
 <text x="24" y="54" font-size="19" font-weight="700" fill="#8250df">Now / Next / Later / Never</text>
 <line x1="24" y1="66" x2="736" y2="66" stroke="#d8dee4"/>
 <text x="24" y="92" font-size="11" fill="#1a7f37" font-weight="700">NOW</text>
-<text x="24" y="112" font-size="12" fill="#24292f">Proving what's here.</text>
-<text x="24" y="128" font-size="12" fill="#24292f">1117 skills, 28 with</text>
-<text x="24" y="144" font-size="12" fill="#24292f">published eval scores.</text>
-<text x="24" y="160" font-size="12" fill="#24292f">Coverage,</text>
-<text x="24" y="182" font-size="12" fill="#24292f">Growing per-skill depth</text>
-<text x="24" y="198" font-size="12" fill="#24292f">— references/ and</text>
-<text x="24" y="214" font-size="12" fill="#24292f">templates/ for the</text>
-<text x="24" y="230" font-size="12" fill="#24292f">most-used</text>
+<text x="24" y="112" font-size="12" fill="#24292f">Proving what is here.</text>
+<text x="24" y="128" font-size="12" fill="#24292f">The library has 1176</text>
+<text x="24" y="144" font-size="12" fill="#24292f">skills. Of those, 281</text>
+<text x="24" y="160" font-size="12" fill="#24292f">have a curated eval case…</text>
+<text x="24" y="182" font-size="12" fill="#24292f">Trust in a release.</text>
+<text x="24" y="198" font-size="12" fill="#24292f">Checking that every</text>
+<text x="24" y="214" font-size="12" fill="#24292f">release installs and</text>
+<text x="24" y="230" font-size="12" fill="#24292f">runs, a way to tell…</text>
+<text x="24" y="252" font-size="12" fill="#24292f">Per-skill depth.</text>
+<text x="24" y="268" font-size="12" fill="#24292f">references/ exist for</text>
+<text x="24" y="284" font-size="12" fill="#24292f">114 of them, templates/</text>
+<text x="24" y="300" font-size="12" fill="#24292f">for 51 and helper…</text>
 <text x="204" y="92" font-size="11" fill="#0969da" font-weight="700">NEXT</text>
-<text x="204" y="112" font-size="12" fill="#24292f">Expanding</text>
-<text x="204" y="128" font-size="12" fill="#24292f">Production-Ready</text>
-<text x="204" y="144" font-size="12" fill="#24292f">coverage — 50 of 1117</text>
-<text x="204" y="160" font-size="12" fill="#24292f">are promoted; the tier</text>
-<text x="204" y="182" font-size="12" fill="#24292f">Consolidation. The</text>
-<text x="204" y="198" font-size="12" fill="#24292f">duplicate detector gates</text>
-<text x="204" y="214" font-size="12" fill="#24292f">new</text>
-<text x="204" y="236" font-size="12" fill="#24292f">More export/install</text>
-<text x="204" y="252" font-size="12" fill="#24292f">targets as the SKILL.md</text>
-<text x="204" y="268" font-size="12" fill="#24292f">standard spreads.</text>
-<text x="204" y="290" font-size="12" fill="#24292f">A public contributor</text>
-<text x="204" y="306" font-size="12" fill="#24292f">leaderboard — the Hall</text>
-<text x="204" y="322" font-size="12" fill="#24292f">of Seasons</text>
+<text x="204" y="112" font-size="12" fill="#24292f">A promotion round for</text>
+<text x="204" y="128" font-size="12" fill="#24292f">Production-Ready. 59 are</text>
+<text x="204" y="144" font-size="12" fill="#24292f">promoted today. The tier</text>
+<text x="204" y="160" font-size="12" fill="#24292f">ladder needs a promotion…</text>
+<text x="204" y="182" font-size="12" fill="#24292f">Paying down the web</text>
+<text x="204" y="198" font-size="12" fill="#24292f">design debt. The</text>
+<text x="204" y="214" font-size="12" fill="#24292f">stylesheet has more</text>
+<text x="204" y="230" font-size="12" fill="#24292f">sizes, radii and colours…</text>
+<text x="204" y="252" font-size="12" fill="#24292f">Fixing the accessibility</text>
+<text x="204" y="268" font-size="12" fill="#24292f">failures on the router</text>
+<text x="204" y="284" font-size="12" fill="#24292f">and catalogue pages,</text>
+<text x="204" y="300" font-size="12" fill="#24292f">which fail the check on…</text>
+<text x="204" y="322" font-size="12" fill="#24292f">More export and install</text>
+<text x="204" y="338" font-size="12" fill="#24292f">targets as the SKILL.md</text>
+<text x="204" y="354" font-size="12" fill="#24292f">standard spreads.</text>
 <text x="384" y="92" font-size="11" fill="#9a6700" font-weight="700">LATER</text>
-<text x="384" y="112" font-size="12" fill="#24292f">Internationalised skill</text>
+<text x="384" y="112" font-size="12" fill="#24292f">Translated skill</text>
 <text x="384" y="128" font-size="12" fill="#24292f">descriptions. Currently</text>
-<text x="384" y="144" font-size="12" fill="#24292f">a stub: 12 Spanish, 11</text>
-<text x="384" y="166" font-size="12" fill="#24292f">Deeper arenas for the</text>
-<text x="384" y="182" font-size="12" fill="#24292f">Season beyond the gym.</text>
+<text x="384" y="144" font-size="12" fill="#24292f">a stub: 11 Spanish, 10</text>
+<text x="384" y="160" font-size="12" fill="#24292f">Japanese, 10 Chinese and…</text>
+<text x="384" y="182" font-size="12" fill="#24292f">Pinning from the CLI, so</text>
+<text x="384" y="198" font-size="12" fill="#24292f">that a team can install</text>
+<text x="384" y="214" font-size="12" fill="#24292f">one skill at one version</text>
+<text x="384" y="230" font-size="12" fill="#24292f">with a single command.</text>
 <text x="564" y="92" font-size="11" fill="#cf222e" font-weight="700">NEVER</text>
 <text x="564" y="112" font-size="12" fill="#24292f">a Discord</text>
 <text x="564" y="134" font-size="12" fill="#24292f">a token</text>
