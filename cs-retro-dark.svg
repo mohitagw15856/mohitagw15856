@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="What went well / what didn't / actions">
 <rect x="0.5" y="0.5" width="759" height="299" rx="12" fill="#0d1117" stroke="#30363d"/>
 <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
-<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#8b949e">RETROSPECTIVE · QUARTER STARTING 2026-07-01</text>
+<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#8b949e">RETROSPECTIVE · QUARTER STARTING 2026-10-01</text>
 <text x="24" y="54" font-size="19" font-weight="700" fill="#d2a8ff">What went well / what didn't / actions</text>
 <line x1="24" y1="66" x2="736" y2="66" stroke="#21262d"/>
 <text x="24" y="92" font-size="11" fill="#3fb950" font-weight="700">WENT WELL</text>
-<text x="24" y="112" font-size="13" fill="#c9d1d9">• 39 issues closed this quarter</text>
-<text x="24" y="128" font-size="13" fill="#c9d1d9">• +31 stars since 2026-09-22</text>
+<text x="24" y="112" font-size="13" fill="#c9d1d9">• 0 issues closed this quarter</text>
+<text x="24" y="128" font-size="13" fill="#c9d1d9">• +32 stars since 2026-09-22</text>
 <text x="24" y="144" font-size="13" fill="#c9d1d9">• eval score 4.41 / 5, in the open</text>
 <text x="24" y="160" font-size="13" fill="#c9d1d9">• every commit still gated</text>
 <text x="264" y="92" font-size="11" fill="#f85149" font-weight="700">DIDN'T</text>
