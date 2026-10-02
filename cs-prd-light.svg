@@ -12,28 +12,28 @@
 <text x="24" y="230" font-size="11" fill="#57606a">SUCCESS METRICS</text>
 <text x="24" y="252" font-size="22" fill="#0969da" font-weight="700">1,176</text>
 <text x="24" y="270" font-size="11" fill="#57606a">skills shipped</text>
-<polyline points="24.0,292.0 37.3,285.6 50.7,285.6 64.0,285.6 77.3,285.6 90.7,285.6 104.0,276.0 117.3,276.0 130.7,276.0 144.0,276.0" fill="none" stroke="#1a7f37" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="24.0,292.0 36.0,285.6 48.0,285.6 60.0,285.6 72.0,285.6 84.0,285.6 96.0,276.0 108.0,276.0 120.0,276.0 132.0,276.0 144.0,276.0" fill="none" stroke="#1a7f37" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="144.0" cy="276.0" r="2.2" fill="#1a7f37"/>
-<text x="24" y="308" font-size="9" fill="#57606a">10-day trend</text>
-<text x="170" y="252" font-size="22" fill="#0969da" font-weight="700">1,451</text>
+<text x="24" y="308" font-size="9" fill="#57606a">11-day trend</text>
+<text x="170" y="252" font-size="22" fill="#0969da" font-weight="700">1,453</text>
 <text x="170" y="270" font-size="11" fill="#57606a">GitHub stars</text>
-<polyline points="170.0,292.0 183.3,289.5 196.7,287.0 210.0,286.5 223.3,283.0 236.7,281.5 250.0,279.0 263.3,279.0 276.7,276.5 290.0,276.0" fill="none" stroke="#1a7f37" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="170.0,292.0 182.0,289.6 194.0,287.3 206.0,286.8 218.0,283.5 230.0,282.1 242.0,279.8 254.0,279.8 266.0,277.4 278.0,276.9 290.0,276.0" fill="none" stroke="#1a7f37" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="290.0" cy="276.0" r="2.2" fill="#1a7f37"/>
-<text x="170" y="308" font-size="9" fill="#57606a">10-day trend</text>
-<text x="316" y="252" font-size="22" fill="#0969da" font-weight="700">14,360</text>
+<text x="170" y="308" font-size="9" fill="#57606a">11-day trend</text>
+<text x="316" y="252" font-size="22" fill="#0969da" font-weight="700">14,870</text>
 <text x="316" y="270" font-size="11" fill="#57606a">npm installs / 30d</text>
-<polyline points="316.0,292.0 329.3,289.8 342.7,289.8 356.0,289.8 369.3,287.6 382.7,281.9 396.0,280.9 409.3,280.4 422.7,277.8 436.0,276.0" fill="none" stroke="#1a7f37" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="316.0,292.0 328.0,290.0 340.0,290.0 352.0,290.0 364.0,287.9 376.0,282.8 388.0,281.9 400.0,281.4 412.0,279.0 424.0,277.4 436.0,276.0" fill="none" stroke="#1a7f37" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="436.0" cy="276.0" r="2.2" fill="#1a7f37"/>
-<text x="316" y="308" font-size="9" fill="#57606a">10-day trend</text>
+<text x="316" y="308" font-size="9" fill="#57606a">11-day trend</text>
 <text x="462" y="252" font-size="22" fill="#0969da" font-weight="700">142</text>
 <text x="462" y="270" font-size="11" fill="#57606a">free runs served</text>
-<polyline points="462.0,292.0 475.3,291.0 488.7,290.0 502.0,290.0 515.3,287.0 528.7,284.0 542.0,284.0 555.3,284.0 568.7,278.0 582.0,276.0" fill="none" stroke="#1a7f37" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="462.0,292.0 474.0,291.0 486.0,290.0 498.0,290.0 510.0,287.0 522.0,284.0 534.0,284.0 546.0,284.0 558.0,278.0 570.0,276.0 582.0,276.0" fill="none" stroke="#1a7f37" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="582.0" cy="276.0" r="2.2" fill="#1a7f37"/>
-<text x="462" y="308" font-size="9" fill="#57606a">10-day trend</text>
+<text x="462" y="308" font-size="9" fill="#57606a">11-day trend</text>
 <text x="608" y="252" font-size="22" fill="#0969da" font-weight="700">4.41 / 5</text>
 <text x="608" y="270" font-size="11" fill="#57606a">eval score</text>
-<polyline points="608.0,284.0 621.3,284.0 634.7,284.0 648.0,284.0 661.3,284.0 674.7,284.0 688.0,284.0 701.3,284.0 714.7,284.0 728.0,284.0" fill="none" stroke="#1a7f37" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="608.0,284.0 620.0,284.0 632.0,284.0 644.0,284.0 656.0,284.0 668.0,284.0 680.0,284.0 692.0,284.0 704.0,284.0 716.0,284.0 728.0,284.0" fill="none" stroke="#1a7f37" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="728.0" cy="284.0" r="2.2" fill="#1a7f37"/>
-<text x="608" y="308" font-size="9" fill="#57606a">10-day trend</text>
-<text x="736" y="342" text-anchor="end" font-size="11" fill="#57606a">metrics live as of 2026-10-01</text>
+<text x="608" y="308" font-size="9" fill="#57606a">11-day trend</text>
+<text x="736" y="342" text-anchor="end" font-size="11" fill="#57606a">metrics live as of 2026-10-02</text>
 </g></svg>
