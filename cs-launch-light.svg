@@ -1,15 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="Introducing Word Doc Tracked Changes">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="Introducing Word Document">
 <rect x="0.5" y="0.5" width="759" height="299" rx="12" fill="#ffffff" stroke="#d0d7de"/>
 <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
-<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#57606a">LAUNCH POST · REGENERATED EVERY MORNING · 2026-10-07</text>
-<text x="24" y="54" font-size="19" font-weight="700" fill="#8250df">Introducing Word Doc Tracked Changes</text>
+<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#57606a">LAUNCH POST · REGENERATED EVERY MORNING · 2026-10-08</text>
+<text x="24" y="54" font-size="19" font-weight="700" fill="#8250df">Introducing Word Document</text>
 <line x1="24" y1="66" x2="736" y2="66" stroke="#d8dee4"/>
-<text x="24" y="92" font-size="14" fill="#24292f">Produce properly-formatted tracked changes for a Word document.</text>
+<text x="24" y="92" font-size="14" fill="#24292f">Build a real, formatted Word (.docx) document — headings, styles, tables, TOC-ready.</text>
 <text x="24" y="118" font-size="11" fill="#57606a">WHO IT'S FOR</text>
-<text x="24" y="136" font-size="13" fill="#24292f">anyone who would say: asked to redline a document, suggest edits to a contract or</text>
-<text x="24" y="154" font-size="13" fill="#24292f">document, create tracked changes for review, or mark up a document with…</text>
-<text x="24" y="178" font-size="11" fill="#57606a">INSTALL</text>
-<rect x="24" y="183" width="712" height="28" rx="6" fill="#f6f8fa" stroke="#d8dee4"/>
-<text x="36" y="202" font-size="13" fill="#1a7f37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ npx pm-claude-skills add docx-tracked-changes</text>
+<text x="24" y="136" font-size="13" fill="#24292f">anyone who would say: asked to produce a Word doc, a</text>
+<text x="24" y="160" font-size="11" fill="#57606a">INSTALL</text>
+<rect x="24" y="165" width="712" height="28" rx="6" fill="#f6f8fa" stroke="#d8dee4"/>
+<text x="36" y="184" font-size="13" fill="#1a7f37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ npx pm-claude-skills add word-document</text>
 <text x="736" y="286" text-anchor="end" font-size="11" fill="#57606a">one of the library's skills, launched again like it's new</text>
 </g></svg>

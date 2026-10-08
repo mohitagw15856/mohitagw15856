@@ -12,28 +12,28 @@
 <text x="24" y="230" font-size="11" fill="#8b949e">SUCCESS METRICS</text>
 <text x="24" y="252" font-size="22" fill="#58a6ff" font-weight="700">1,285</text>
 <text x="24" y="270" font-size="11" fill="#8b949e">skills shipped</text>
-<polyline points="24.0,292.0 32.0,291.5 40.0,291.5 48.0,291.5 56.0,291.5 64.0,291.5 72.0,290.7 80.0,290.7 88.0,290.7 96.0,290.7 104.0,290.7 112.0,290.7 120.0,285.8 128.0,280.0 136.0,276.0 144.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="24.0,292.0 31.5,291.5 39.0,291.5 46.5,291.5 54.0,291.5 61.5,291.5 69.0,290.7 76.5,290.7 84.0,290.7 91.5,290.7 99.0,290.7 106.5,290.7 114.0,285.8 121.5,280.0 129.0,276.0 136.5,276.0 144.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="144.0" cy="276.0" r="2.2" fill="#3fb950"/>
-<text x="24" y="308" font-size="9" fill="#8b949e">16-day trend</text>
-<text x="170" y="252" font-size="22" fill="#58a6ff" font-weight="700">1,466</text>
+<text x="24" y="308" font-size="9" fill="#8b949e">17-day trend</text>
+<text x="170" y="252" font-size="22" fill="#58a6ff" font-weight="700">1,469</text>
 <text x="170" y="270" font-size="11" fill="#8b949e">GitHub stars</text>
-<polyline points="170.0,292.0 178.0,290.3 186.0,288.6 194.0,288.3 202.0,285.9 210.0,284.9 218.0,283.1 226.0,283.1 234.0,281.4 242.0,281.1 250.0,280.4 258.0,280.4 266.0,280.1 274.0,278.4 282.0,277.4 290.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="170.0,292.0 177.5,290.4 185.0,288.8 192.5,288.5 200.0,286.2 207.5,285.3 215.0,283.7 222.5,283.7 230.0,282.1 237.5,281.8 245.0,281.1 252.5,281.1 260.0,280.8 267.5,279.2 275.0,278.2 282.5,277.0 290.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="290.0" cy="276.0" r="2.2" fill="#3fb950"/>
-<text x="170" y="308" font-size="9" fill="#8b949e">16-day trend</text>
+<text x="170" y="308" font-size="9" fill="#8b949e">17-day trend</text>
 <text x="316" y="252" font-size="22" fill="#58a6ff" font-weight="700">17,537</text>
 <text x="316" y="270" font-size="11" fill="#8b949e">npm installs / 30d</text>
-<polyline points="316.0,292.0 324.0,290.6 332.0,290.6 340.0,290.6 348.0,289.2 356.0,285.7 364.0,285.0 372.0,284.7 380.0,283.0 388.0,281.9 396.0,281.0 404.0,280.2 412.0,277.6 420.0,276.0 428.0,276.0 436.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="316.0,292.0 323.5,290.6 331.0,290.6 338.5,290.6 346.0,289.2 353.5,285.7 361.0,285.0 368.5,284.7 376.0,283.0 383.5,281.9 391.0,281.0 398.5,280.2 406.0,277.6 413.5,276.0 421.0,276.0 428.5,276.0 436.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="436.0" cy="276.0" r="2.2" fill="#3fb950"/>
-<text x="316" y="308" font-size="9" fill="#8b949e">16-day trend</text>
+<text x="316" y="308" font-size="9" fill="#8b949e">17-day trend</text>
 <text x="462" y="252" font-size="22" fill="#58a6ff" font-weight="700">145</text>
 <text x="462" y="270" font-size="11" fill="#8b949e">free runs served</text>
-<polyline points="462.0,292.0 470.0,291.2 478.0,290.3 486.0,290.3 494.0,287.8 502.0,285.3 510.0,285.3 518.0,285.3 526.0,280.2 534.0,278.5 542.0,278.5 550.0,278.5 558.0,278.5 566.0,277.7 574.0,276.8 582.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="462.0,292.0 469.5,291.2 477.0,290.3 484.5,290.3 492.0,287.8 499.5,285.3 507.0,285.3 514.5,285.3 522.0,280.2 529.5,278.5 537.0,278.5 544.5,278.5 552.0,278.5 559.5,277.7 567.0,276.8 574.5,276.0 582.0,276.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="582.0" cy="276.0" r="2.2" fill="#3fb950"/>
-<text x="462" y="308" font-size="9" fill="#8b949e">16-day trend</text>
+<text x="462" y="308" font-size="9" fill="#8b949e">17-day trend</text>
 <text x="608" y="252" font-size="22" fill="#58a6ff" font-weight="700">4.41 / 5</text>
 <text x="608" y="270" font-size="11" fill="#8b949e">eval score</text>
-<polyline points="608.0,284.0 616.0,284.0 624.0,284.0 632.0,284.0 640.0,284.0 648.0,284.0 656.0,284.0 664.0,284.0 672.0,284.0 680.0,284.0 688.0,284.0 696.0,284.0 704.0,284.0 712.0,284.0 720.0,284.0 728.0,284.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="608.0,284.0 615.5,284.0 623.0,284.0 630.5,284.0 638.0,284.0 645.5,284.0 653.0,284.0 660.5,284.0 668.0,284.0 675.5,284.0 683.0,284.0 690.5,284.0 698.0,284.0 705.5,284.0 713.0,284.0 720.5,284.0 728.0,284.0" fill="none" stroke="#3fb950" stroke-width="1.5" stroke-linejoin="round"/>
 <circle cx="728.0" cy="284.0" r="2.2" fill="#3fb950"/>
-<text x="608" y="308" font-size="9" fill="#8b949e">16-day trend</text>
-<text x="736" y="342" text-anchor="end" font-size="11" fill="#8b949e">metrics live as of 2026-10-07</text>
+<text x="608" y="308" font-size="9" fill="#8b949e">17-day trend</text>
+<text x="736" y="342" text-anchor="end" font-size="11" fill="#8b949e">metrics live as of 2026-10-08</text>
 </g></svg>
