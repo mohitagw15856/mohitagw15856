@@ -6,18 +6,18 @@
 <line x1="24" y1="66" x2="736" y2="66" stroke="#21262d"/>
 <text x="24" y="92" font-size="12" fill="#8b949e">views (14d)</text>
 <text x="736" y="92" font-size="13" fill="#c9d1d9" font-weight="700" text-anchor="end">7,354</text>
-<rect x="24" y="100" width="712" height="8" rx="4" fill="#21262d"/><rect x="24" y="100" width="299" height="8" rx="4" fill="#58a6ff"/>
+<rect x="24" y="100" width="712" height="8" rx="4" fill="#21262d"/><rect x="24" y="100" width="311" height="8" rx="4" fill="#58a6ff"/>
 <text x="24" y="134" font-size="12" fill="#8b949e">unique visitors</text>
 <text x="736" y="134" font-size="13" fill="#c9d1d9" font-weight="700" text-anchor="end">2,323</text>
 <text x="640" y="134" font-size="10" fill="#8b949e" text-anchor="end">32% of previous</text>
-<rect x="24" y="142" width="712" height="8" rx="4" fill="#21262d"/><rect x="24" y="142" width="94" height="8" rx="4" fill="#58a6ff"/>
+<rect x="24" y="142" width="712" height="8" rx="4" fill="#21262d"/><rect x="24" y="142" width="98" height="8" rx="4" fill="#58a6ff"/>
 <text x="24" y="176" font-size="12" fill="#8b949e">clones (14d)</text>
 <text x="736" y="176" font-size="13" fill="#c9d1d9" font-weight="700" text-anchor="end">8,938</text>
 <text x="640" y="176" font-size="10" fill="#8b949e" text-anchor="end">385% of previous</text>
-<rect x="24" y="184" width="712" height="8" rx="4" fill="#21262d"/><rect x="24" y="184" width="363" height="8" rx="4" fill="#58a6ff"/>
+<rect x="24" y="184" width="712" height="8" rx="4" fill="#21262d"/><rect x="24" y="184" width="379" height="8" rx="4" fill="#58a6ff"/>
 <text x="24" y="218" font-size="12" fill="#8b949e">npm installs (30d)</text>
-<text x="736" y="218" font-size="13" fill="#c9d1d9" font-weight="700" text-anchor="end">17,537</text>
-<text x="640" y="218" font-size="10" fill="#8b949e" text-anchor="end">196% of previous</text>
+<text x="736" y="218" font-size="13" fill="#c9d1d9" font-weight="700" text-anchor="end">16,812</text>
+<text x="640" y="218" font-size="10" fill="#8b949e" text-anchor="end">188% of previous</text>
 <rect x="24" y="226" width="712" height="8" rx="4" fill="#21262d"/><rect x="24" y="226" width="712" height="8" rx="4" fill="#58a6ff"/>
 <text x="24" y="260" font-size="12" fill="#8b949e">free runs served</text>
 <text x="736" y="260" font-size="13" fill="#c9d1d9" font-weight="700" text-anchor="end">145</text>

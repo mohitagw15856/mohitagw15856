@@ -1,14 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="Introducing Word Document">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="Introducing Work Instruction (作业指导书 / SOP)">
 <rect x="0.5" y="0.5" width="759" height="299" rx="12" fill="#ffffff" stroke="#d0d7de"/>
 <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
-<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#57606a">LAUNCH POST · REGENERATED EVERY MORNING · 2026-10-08</text>
-<text x="24" y="54" font-size="19" font-weight="700" fill="#8250df">Introducing Word Document</text>
+<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#57606a">LAUNCH POST · REGENERATED EVERY MORNING · 2026-10-09</text>
+<text x="24" y="54" font-size="19" font-weight="700" fill="#8250df">Introducing Work Instruction (作业指导书 / SOP)</text>
 <line x1="24" y1="66" x2="736" y2="66" stroke="#d8dee4"/>
-<text x="24" y="92" font-size="14" fill="#24292f">Build a real, formatted Word (.docx) document — headings, styles, tables, TOC-ready.</text>
-<text x="24" y="118" font-size="11" fill="#57606a">WHO IT'S FOR</text>
-<text x="24" y="136" font-size="13" fill="#24292f">anyone who would say: asked to produce a Word doc, a</text>
-<text x="24" y="160" font-size="11" fill="#57606a">INSTALL</text>
-<rect x="24" y="165" width="712" height="28" rx="6" fill="#f6f8fa" stroke="#d8dee4"/>
-<text x="36" y="184" font-size="13" fill="#1a7f37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ npx pm-claude-skills add word-document</text>
+<text x="24" y="92" font-size="14" fill="#24292f">Use when asked 写作业指导书, SOP 作业指导书, 工序作业标准, 标准作业书, 新员工看得懂的操作说明, WI 怎么写, or write a</text>
+<text x="24" y="112" font-size="14" fill="#24292f">shop-floor work instruction for a production or inspection step in a Chinese</text>
+<text x="24" y="132" font-size="14" fill="#24292f">factory.</text>
+<text x="24" y="158" font-size="11" fill="#57606a">WHO IT'S FOR</text>
+<text x="24" y="176" font-size="13" fill="#24292f">anyone who would say: asked 写作业指导书, SOP 作业指导书, 工序作业标准, 标准作业书, 新员工看得懂的操作说明, WI 怎么写,</text>
+<text x="24" y="194" font-size="13" fill="#24292f">or write a shop-floor work instruction for a production or inspection step in…</text>
+<text x="24" y="218" font-size="11" fill="#57606a">INSTALL</text>
+<rect x="24" y="223" width="712" height="28" rx="6" fill="#f6f8fa" stroke="#d8dee4"/>
+<text x="36" y="242" font-size="13" fill="#1a7f37" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ npx pm-claude-skills add cn-sop-writer</text>
 <text x="736" y="286" text-anchor="end" font-size="11" fill="#57606a">one of the library's skills, launched again like it's new</text>
 </g></svg>

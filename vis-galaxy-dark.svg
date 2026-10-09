@@ -1141,7 +1141,8 @@
 <circle cx="156.1" cy="248.3" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="150.2" cy="240.5" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="156.7" cy="241.4" r="1.6" fill="#58a6ff" opacity="0.85"/>
-<circle cx="155.6" cy="250.2" r="1.6" fill="#58a6ff" opacity="0.85"/>
+<circle cx="155.6" cy="250.2" r="5" fill="#d2a8ff" opacity="1" class="pulse"/>
+<text x="164.6" y="254.2" font-size="11" fill="#d2a8ff" font-weight="700">cn-sop-writer</text>
 <circle cx="434.1" cy="100.0" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="434.1" cy="100.9" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="432.7" cy="92.9" r="1.6" fill="#58a6ff" opacity="0.85"/>
@@ -1266,8 +1267,7 @@
 <circle cx="151.1" cy="114.0" r="1.6" fill="#f85149" opacity="0.85"/>
 <circle cx="702.9" cy="192.1" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="694.0" cy="190.0" r="1.6" fill="#58a6ff" opacity="0.85"/>
-<circle cx="698.5" cy="195.9" r="5" fill="#d2a8ff" opacity="1" class="pulse"/>
-<text x="707.5" y="199.9" font-size="11" fill="#d2a8ff" font-weight="700">word-document</text>
+<circle cx="698.5" cy="195.9" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="144.1" cy="257.2" r="1.6" fill="#d29922" opacity="0.85"/>
 <circle cx="141.2" cy="254.5" r="1.6" fill="#d29922" opacity="0.85"/>
 <circle cx="138.5" cy="259.1" r="1.6" fill="#d29922" opacity="0.85"/>
