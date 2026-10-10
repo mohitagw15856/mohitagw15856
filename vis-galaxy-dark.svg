@@ -100,7 +100,8 @@
 <circle cx="397.1" cy="205.7" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="390.3" cy="184.9" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="399.3" cy="201.8" r="1.6" fill="#58a6ff" opacity="0.85"/>
-<circle cx="430.4" cy="193.6" r="1.6" fill="#58a6ff" opacity="0.85"/>
+<circle cx="430.4" cy="193.6" r="5" fill="#d2a8ff" opacity="1" class="pulse"/>
+<text x="439.4" y="197.6" font-size="11" fill="#d2a8ff" font-weight="700">working-agreements</text>
 <circle cx="411.1" cy="204.3" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="339.5" cy="202.0" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="345.5" cy="200.6" r="1.6" fill="#58a6ff" opacity="0.85"/>
@@ -1141,8 +1142,7 @@
 <circle cx="156.1" cy="248.3" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="150.2" cy="240.5" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="156.7" cy="241.4" r="1.6" fill="#58a6ff" opacity="0.85"/>
-<circle cx="155.6" cy="250.2" r="5" fill="#d2a8ff" opacity="1" class="pulse"/>
-<text x="164.6" y="254.2" font-size="11" fill="#d2a8ff" font-weight="700">cn-sop-writer</text>
+<circle cx="155.6" cy="250.2" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="434.1" cy="100.0" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="434.1" cy="100.9" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="432.7" cy="92.9" r="1.6" fill="#58a6ff" opacity="0.85"/>
