@@ -429,7 +429,8 @@
 <circle cx="321.2" cy="222.9" r="1.6" fill="#d29922" opacity="0.85"/>
 <circle cx="331.2" cy="216.8" r="1.6" fill="#f85149" opacity="0.85"/>
 <circle cx="313.0" cy="215.2" r="1.6" fill="#d29922" opacity="0.85"/>
-<circle cx="328.2" cy="213.1" r="1.6" fill="#d29922" opacity="0.85"/>
+<circle cx="328.2" cy="213.1" r="5" fill="#d2a8ff" opacity="1" class="pulse"/>
+<text x="337.2" y="217.1" font-size="11" fill="#d2a8ff" font-weight="700">year-in-review</text>
 <circle cx="362.1" cy="159.6" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="362.0" cy="147.8" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="376.1" cy="151.3" r="1.6" fill="#58a6ff" opacity="0.85"/>
@@ -646,8 +647,7 @@
 <circle cx="255.4" cy="163.0" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="249.4" cy="153.5" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="253.9" cy="167.2" r="1.6" fill="#58a6ff" opacity="0.85"/>
-<circle cx="265.3" cy="159.8" r="5" fill="#d2a8ff" opacity="1" class="pulse"/>
-<text x="274.3" y="163.8" font-size="11" fill="#d2a8ff" font-weight="700">writing-plans</text>
+<circle cx="265.3" cy="159.8" r="1.6" fill="#58a6ff" opacity="0.85"/>
 <circle cx="537.1" cy="181.6" r="1.6" fill="#d29922" opacity="0.85"/>
 <circle cx="529.6" cy="192.0" r="1.6" fill="#d29922" opacity="0.85"/>
 <circle cx="539.3" cy="191.1" r="1.6" fill="#d29922" opacity="0.85"/>
