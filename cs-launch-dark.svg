@@ -1,16 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="Introducing Year in Review">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" role="img" aria-label="Introducing Supplier Scorecard">
 <rect x="0.5" y="0.5" width="759" height="299" rx="12" fill="#0d1117" stroke="#30363d"/>
 <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
-<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#8b949e">LAUNCH POST · REGENERATED EVERY MORNING · 2026-10-16</text>
-<text x="24" y="54" font-size="19" font-weight="700" fill="#d2a8ff">Introducing Year in Review</text>
+<text x="24" y="30" font-size="11" letter-spacing="1.5" fill="#8b949e">LAUNCH POST · REGENERATED EVERY MORNING · 2026-10-17</text>
+<text x="24" y="54" font-size="19" font-weight="700" fill="#d2a8ff">Introducing Supplier Scorecard</text>
 <line x1="24" y1="66" x2="736" y2="66" stroke="#21262d"/>
-<text x="24" y="92" font-size="14" fill="#c9d1d9">Run an honest personal year-in-review and set next year's direction — wins, misses,</text>
-<text x="24" y="112" font-size="14" fill="#c9d1d9">an energy audit, and one theme, not a resolution list that dies in February.</text>
+<text x="24" y="92" font-size="14" fill="#c9d1d9">Build a quarterly supplier performance scorecard with a weighted grade and a clear</text>
+<text x="24" y="112" font-size="14" fill="#c9d1d9">escalate/develop/exit call.</text>
 <text x="24" y="138" font-size="11" fill="#8b949e">WHO IT'S FOR</text>
-<text x="24" y="156" font-size="13" fill="#c9d1d9">anyone who would say: asked for a personal year in review, a yearly reflection, to</text>
-<text x="24" y="174" font-size="13" fill="#c9d1d9">reflect on the past year, or plan next year</text>
+<text x="24" y="156" font-size="13" fill="#c9d1d9">anyone who would say: asked to review supplier performance, prepare a quarterly</text>
+<text x="24" y="174" font-size="13" fill="#c9d1d9">business review for a vendor, score a supplier on OTIF and quality, or…</text>
 <text x="24" y="198" font-size="11" fill="#8b949e">INSTALL</text>
 <rect x="24" y="203" width="712" height="28" rx="6" fill="#161b22" stroke="#21262d"/>
-<text x="36" y="222" font-size="13" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ npx pm-claude-skills add year-in-review</text>
+<text x="36" y="222" font-size="13" fill="#3fb950" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ npx pm-claude-skills add supplier-scorecard</text>
 <text x="736" y="286" text-anchor="end" font-size="11" fill="#8b949e">one of the library's skills, launched again like it's new</text>
 </g></svg>
